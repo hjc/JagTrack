@@ -5,5 +5,5 @@ public class Passenger {
 	private String firstName;
 	private String lastName;
 	private Itinerary itinerary;
-	private Bus currentBus;
+	
 }

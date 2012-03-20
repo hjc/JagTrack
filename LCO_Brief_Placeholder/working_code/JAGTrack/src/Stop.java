@@ -1,5 +1,6 @@
 
 public class Stop {
-	int stopNumber;
-	Location location;
+	private int stopNumber;
+	private Location location;
+	private Route[] stop_routes;
 }
