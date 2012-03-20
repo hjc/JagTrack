@@ -1,4 +1,5 @@
 
 public class Stop {
 	int stopNumber;
+	Location location;
 }
