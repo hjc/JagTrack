@@ -1,0 +1,1202 @@
+[Sat Mar 24 14:32:49 CDT 2012] [warning] Language dir not found: /home/haydenmint/workspace/JagTrack/../UserLanguage
+[Sat Mar 24 14:38:31 CDT 2012] [warning] Language dir not found: /home/haydenmint/workspace/JagTrack/../UserLanguage
+[Sat Mar 24 14:38:37 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sat Mar 24 14:38:37 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sat Mar 24 14:38:37 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sat Mar 24 14:38:37 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sat Mar 24 14:38:37 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sat Mar 24 14:38:37 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sat Mar 24 14:38:37 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sat Mar 24 14:38:37 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sat Mar 24 14:38:38 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sat Mar 24 14:38:38 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sat Mar 24 14:38:38 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sat Mar 24 14:38:38 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sat Mar 24 14:38:38 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sat Mar 24 14:38:38 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sat Mar 24 14:38:38 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sat Mar 24 14:38:38 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sat Mar 24 14:38:38 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sat Mar 24 14:38:38 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sat Mar 24 14:38:38 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sat Mar 24 14:38:38 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sat Mar 24 14:38:38 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sat Mar 24 14:38:39 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sat Mar 24 14:38:39 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sat Mar 24 14:38:39 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sat Mar 24 14:38:39 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sat Mar 24 14:38:39 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sat Mar 24 14:38:39 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sat Mar 24 14:38:39 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sat Mar 24 14:38:39 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sat Mar 24 14:38:39 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sat Mar 24 14:38:39 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sat Mar 24 14:38:39 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sat Mar 24 14:38:39 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sat Mar 24 14:38:39 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sat Mar 24 14:38:39 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sat Mar 24 14:38:39 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sat Mar 24 14:47:03 CDT 2012] [message] *sys-package-mgr*: processing new jar, '/home/haydenmint/Downloads/eclipse/plugins/org.eclipse.equinox.launcher_1.2.0.v20110502.jar'
+[Sat Mar 24 14:47:03 CDT 2012] [message] *sys-package-mgr*: processing new jar, '/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/resources.jar'
+[Sat Mar 24 14:47:03 CDT 2012] [message] *sys-package-mgr*: processing new jar, '/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/rt.jar'
+[Sat Mar 24 14:47:04 CDT 2012] [message] *sys-package-mgr*: processing new jar, '/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/jsse.jar'
+[Sat Mar 24 14:47:04 CDT 2012] [message] *sys-package-mgr*: processing new jar, '/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/jce.jar'
+[Sat Mar 24 14:47:04 CDT 2012] [message] *sys-package-mgr*: processing new jar, '/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/charsets.jar'
+[Sat Mar 24 14:47:04 CDT 2012] [message] *sys-package-mgr*: processing new jar, '/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/ext/dnsns.jar'
+[Sat Mar 24 14:47:05 CDT 2012] [message] *sys-package-mgr*: processing new jar, '/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/ext/sunjce_provider.jar'
+[Sat Mar 24 14:47:05 CDT 2012] [message] *sys-package-mgr*: processing new jar, '/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/ext/sunpkcs11.jar'
+[Sat Mar 24 14:47:05 CDT 2012] [message] *sys-package-mgr*: processing new jar, '/usr/lib/jvm/java-6-sun-1.6.0.26/jre/lib/ext/localedata.jar'
+[Sun Mar 25 15:05:41 CDT 2012] [warning] Language dir not found: /home/haydenmint/workspace/JagTrack/../UserLanguage
+[Sun Mar 25 15:05:49 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sun Mar 25 15:05:49 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sun Mar 25 15:05:49 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sun Mar 25 15:05:49 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sun Mar 25 15:05:49 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sun Mar 25 15:05:49 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sun Mar 25 15:05:50 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sun Mar 25 15:05:50 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sun Mar 25 15:05:50 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sun Mar 25 15:05:50 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sun Mar 25 15:05:50 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sun Mar 25 15:05:50 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sun Mar 25 15:05:51 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sun Mar 25 15:05:51 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sun Mar 25 15:05:51 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sun Mar 25 15:05:51 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sun Mar 25 15:05:51 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sun Mar 25 15:05:51 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sun Mar 25 15:05:52 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sun Mar 25 15:05:52 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sun Mar 25 15:05:52 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sun Mar 25 15:05:52 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sun Mar 25 15:05:52 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sun Mar 25 15:05:52 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sun Mar 25 15:05:52 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sun Mar 25 15:05:52 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sun Mar 25 15:05:52 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sun Mar 25 15:05:52 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sun Mar 25 15:05:52 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sun Mar 25 15:05:52 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sun Mar 25 15:05:52 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sun Mar 25 15:05:52 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sun Mar 25 15:05:52 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sun Mar 25 15:05:52 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sun Mar 25 15:05:52 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Sun Mar 25 15:05:52 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Mon Mar 26 18:30:23 CDT 2012] [warning] Language dir not found: /home/haydenmint/workspace/JagTrack/../UserLanguage
+[Mon Mar 26 18:30:31 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Mon Mar 26 18:30:31 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Mon Mar 26 18:30:31 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Mon Mar 26 18:30:31 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Mon Mar 26 18:30:31 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Mon Mar 26 18:30:31 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Mon Mar 26 18:30:31 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Mon Mar 26 18:30:31 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Mon Mar 26 18:30:31 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Mon Mar 26 18:30:31 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Mon Mar 26 18:30:32 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Mon Mar 26 18:30:32 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Mon Mar 26 18:30:33 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Mon Mar 26 18:30:33 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Mon Mar 26 18:30:33 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Mon Mar 26 18:30:34 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Mon Mar 26 18:30:34 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Mon Mar 26 18:30:34 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Mon Mar 26 18:30:34 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Mon Mar 26 18:30:34 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Mon Mar 26 18:30:34 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Mon Mar 26 18:30:34 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Mon Mar 26 18:30:34 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Mon Mar 26 18:30:34 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Mon Mar 26 18:30:34 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Mon Mar 26 18:30:34 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Mon Mar 26 18:30:34 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Mon Mar 26 18:30:34 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Mon Mar 26 18:30:34 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Mon Mar 26 18:30:34 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Mon Mar 26 18:30:34 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Mon Mar 26 18:30:34 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Mon Mar 26 18:30:34 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Mon Mar 26 18:30:35 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Mon Mar 26 18:30:35 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
+[Mon Mar 26 18:30:35 CDT 2012] [message] LoadError: no such file to load -- ruble/ui
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:2
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/201/1/.cp/framework/ruble/editor.rb:4
+     call at org/jruby/RubyProc.java:274
+     call at org/jruby/RubyProc.java:229
+     each at /home/haydenmint/Downloads/eclipse/plugins/org.jruby_1.6.4.1314386973/lib/ruby/site_ruby/shared/builtin/java/java.util.rb:7
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:3
+  require at org/jruby/RubyKernel.java:1038
+   (root) at /home/haydenmint/Downloads/eclipse/configuration/org.eclipse.osgi/bundles/210/1/.cp/framework/ruble.rb:1
