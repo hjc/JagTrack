@@ -1,0 +1,7 @@
+
+public class Itenerary {
+	
+	Stop departure;
+	Stop destination;
+
+}
