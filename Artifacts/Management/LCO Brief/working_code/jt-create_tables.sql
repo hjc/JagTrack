@@ -104,6 +104,8 @@ CREATE TABLE IF NOT EXISTS `jt_route_bus` (
 -- Table structure for table `jt_route_stop`
 --
 
+--rid and sid, want to get to sid
+
 CREATE TABLE IF NOT EXISTS `jt_route_stop` (
   `link_id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'PK',
   `route_id` int(11) NOT NULL COMMENT 'FK to jt_routes',
