@@ -1,0 +1,772 @@
+[33mcommit a137923462c98fa9581f43768c15ee295edb1056[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Thu Apr 26 19:12:11 2012 -0500
+
+    All Server code done, yea yea
+
+[33mcommit 9dc7736cde4c6d0804f3ea3f74bf4295cae1f1bd[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Thu Apr 26 01:05:18 2012 -0500
+
+    returns a 6 now, think we can get pass 2
+
+[33mcommit 16e14ea4eb5a8dceabb8d344c723369e1769ae5a[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Wed Apr 25 17:59:42 2012 -0500
+
+    Moved code around, getting setup
+
+[33mcommit acdb3df410e9fbf80fbc4e396aaa3e4fc6ed8b56[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Wed Apr 25 17:53:57 2012 -0500
+
+    final table structure with insert data
+
+[33mcommit 8d44381c4a829470a515fdf98a1040647e7f2073[m
+Merge: 1f531e6 b4353f3
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Wed Apr 25 17:52:15 2012 -0500
+
+    Merge branch 'master' of github.com:hjc1710/JagTrack
+
+[33mcommit b4353f3535c5d08e279d59c4f8ecebea1e804e65[m
+Author: Adam Moore <AMoore913@gmail.com>
+Date:   Tue Apr 24 23:27:31 2012 -0500
+
+    Updated Software Development Plan
+
+[33mcommit 1f531e6e04df69cce3edcca4f84588ee86c9b94e[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Thu Apr 12 16:35:50 2012 -0500
+
+    Moved some hidden files
+
+[33mcommit 9699db1a11ef074c1dadc7e88e2ec89c5a96fc99[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Thu Apr 12 16:35:04 2012 -0500
+
+    Final restructur
+
+[33mcommit be4d52e2a601f257a25c10eecfe509c6b567d3cd[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Thu Apr 12 16:34:34 2012 -0500
+
+    unhide mgmt
+
+[33mcommit 2ac3b64adfd0aa0ae7d288cd60bbfa69ada4546a[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Thu Apr 12 16:33:22 2012 -0500
+
+    Restructure
+
+[33mcommit 4a54e6b5a28124f436874c2cefabbada518b7b5b[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Wed Apr 4 17:59:16 2012 -0500
+
+    Added use case reviseded and realization for use case 1
+
+[33mcommit c0dc086a595b9056410fa95da5774cfe8250ed7e[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Wed Apr 4 01:05:39 2012 -0500
+
+    Added refined Software Arch Document, added document on layers and subsystems
+
+[33mcommit 5c449450ee6d75d8e4d031da48d468d4ccc64777[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Tue Apr 3 23:27:13 2012 -0500
+
+    Added updated risk list
+
+[33mcommit f551864a2a94d08915994543c4c1e294a0b72bbb[m
+Merge: 7881780 f81d820
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Tue Apr 3 11:16:23 2012 -0500
+
+    Merge branch 'master' of github.com:hjc1710/JagTrack
+
+[33mcommit f81d82032fe32230a557e67fdd3c2c65eef3d294[m
+Author: Camp Christopher <thectcamp@gmail.com>
+Date:   Tue Apr 3 11:05:37 2012 -0500
+
+    fix
+
+[33mcommit 7881780c848461297617b7fb5e761f533d3b6929[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Tue Apr 3 09:36:55 2012 -0500
+
+    Added programming guidelines
+
+[33mcommit da6e6ec554f2f8c32c591b450324f14dc8a3bd77[m
+Author: Shanna Keith <gemini.kei26@gmail.com>
+Date:   Tue Apr 3 09:29:18 2012 -0500
+
+    risk base list
+
+[33mcommit 20d3ab57d4fc9299b88dfd74943129a3a8f879d6[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Mon Apr 2 22:53:27 2012 -0500
+
+    Added some finished ELab Artifacts
+
+[33mcommit 1eac2db526dba020d2fe6b4962a548fcc96e9bad[m
+Merge: b707563 15c778e
+Author: KD Wilson <kdwilson718@gmail.com>
+Date:   Mon Apr 2 10:54:07 2012 -0500
+
+    Merge github.com:hjc1710/JagTrack
+
+[33mcommit b707563a5c8fb4da00d40c396e1854d56c9b451d[m
+Author: KD Wilson <kdwilson718@gmail.com>
+Date:   Mon Apr 2 10:35:09 2012 -0500
+
+    New stuff
+
+[33mcommit 15c778e2da8ede1ad51de7495488b1696efd939f[m
+Author: Camp Christopher <Camp@Camp-PC.(none)>
+Date:   Mon Apr 2 09:41:42 2012 -0500
+
+    testing push
+
+[33mcommit 4e7baaaf03f02b797c7281e5df86a5caba427556[m
+Merge: cd7b967 01a3562
+Author: Robert Fornof <robert4nof@gmail.com>
+Date:   Mon Mar 26 14:38:22 2012 -0500
+
+    n double quotes
+
+[33mcommit 01a356239d1d043c1f56b01b940742575f59bb56[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Fri Mar 23 22:24:51 2012 -0500
+
+    Testing macros
+
+[33mcommit 03ae0a3488fa8095d6d5169584e3c93d9bd8dc4c[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Fri Mar 23 12:25:30 2012 -0500
+
+    Testing
+
+[33mcommit 97e8bb8abc291e346edcfbad9904c310676a303f[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Fri Mar 23 00:19:44 2012 -0500
+
+    Test macro
+
+[33mcommit 438a9f4df1c6746b88e58375171e8a98629e2247[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Thu Mar 22 17:02:52 2012 -0500
+
+    Added git cheat sheet
+
+[33mcommit 6a08c5a6ec064ca35145384be8e971a31de41846[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Thu Mar 22 16:47:50 2012 -0500
+
+    Clean up
+
+[33mcommit 1a80773375f54e1d5eefc9328acd0068ce646191[m
+Merge: 16efe65 4c18570
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Thu Mar 22 16:47:27 2012 -0500
+
+    Merge branch 'master' of github.com:hjc1710/JagTrack
+
+[33mcommit 16efe65718f9e374c5dc1ca0864fac70692078a6[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Thu Mar 22 16:47:09 2012 -0500
+
+    Added PPT briefing
+
+[33mcommit 4c18570fdb23eec15b5afcf3c3fd9b1f7dcb95c1[m
+Merge: 6749454 072bd6a
+Author: KD Wilson <kdwilson718@gmail.com>
+Date:   Thu Mar 22 13:40:38 2012 -0500
+
+    Merge branch 'master' of github.com:hjc1710/JagTrack
+
+[33mcommit 6749454b7a3a6699b4944c435b55087baff84665[m
+Author: KD Wilson <kdwilson718@gmail.com>
+Date:   Thu Mar 22 13:40:30 2012 -0500
+
+    another test
+
+[33mcommit 072bd6aaed5a899d3b2d76bc54cd5a8e89dbcb6c[m
+Merge: 7918374 371da6d
+Author: Camp Christopher <thectcamp@gmail.com>
+Date:   Thu Mar 22 13:35:48 2012 -0500
+
+    Merge branch 'master' of github.com:hjc1710/JagTrack
+
+[33mcommit 7918374cde60618f9e4b33961cad81554b68ddca[m
+Author: Camp Christopher <thectcamp@gmail.com>
+Date:   Thu Mar 22 13:33:54 2012 -0500
+
+    pug
+
+[33mcommit 371da6d1621392a17578e57068aa6d12f8d15833[m
+Author: KD Wilson <kdwilson718@gmail.com>
+Date:   Thu Mar 22 13:33:32 2012 -0500
+
+    test
+
+[33mcommit a672048cc664b7b1539277adb9cb020290a5ff67[m
+Merge: ae5c1c0 5740dd9
+Author: KD Wilson <kdwilson718@gmail.com>
+Date:   Thu Mar 22 13:30:16 2012 -0500
+
+    Merge branch 'master' of github.com:hjc1710/JagTrack
+
+[33mcommit 5740dd9d0e0fc064a048efcac51db820ccb8d09c[m
+Author: unknown <Owner@Owner-PC.(none)>
+Date:   Thu Mar 22 13:29:22 2012 -0500
+
+    Added some stuff. Take a look
+
+[33mcommit ae5c1c03abef18b9e6f794ab186860c710e37121[m
+Author: KD Wilson <kdwilson718@gmail.com>
+Date:   Thu Mar 22 13:28:49 2012 -0500
+
+    PUPPY
+
+[33mcommit 02f32f46f097974e6bf753fc996fb77a1138aa6e[m
+Author: KD Wilson <kdwilson718@gmail.com>
+Date:   Thu Mar 22 13:26:47 2012 -0500
+
+    another puppy
+
+[33mcommit 71cebf777ac5958ec85b5ee19e38593944748a8d[m
+Author: unknown <Robert@Cool.(none)>
+Date:   Thu Mar 22 13:23:11 2012 -0500
+
+    Random commit
+
+[33mcommit 5d6720ccdf8acee00563f1e1533485c6a4e90835[m
+Author: KD Wilson <kdwilson718@gmail.com>
+Date:   Thu Mar 22 13:20:04 2012 -0500
+
+    another puppy
+
+[33mcommit bb56d88db2f6c4ca1fdecaa973b6fe83ecd1f497[m
+Author: unknown <KD@KD-Laptop.(none)>
+Date:   Thu Mar 22 13:16:19 2012 -0500
+
+    Added puppy
+
+[33mcommit 785a703bca3afdd57dd88c804ece7f7355c2e431[m
+Merge: c7f5b3d 3f5ed1e
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Tue Mar 20 14:39:46 2012 -0500
+
+    Merge branch 'master' of github.com:hjc1710/JagTrack
+
+[33mcommit c7f5b3d8ccd451774a1bd7589e959b4eced0e28e[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Tue Mar 20 14:39:34 2012 -0500
+
+    Added correct domain models (KD's)
+
+[33mcommit 3f5ed1e2a8409d8c7bba1a9773c15a610cc7b2f5[m
+Author: unknown <Robert@Cool.(none)>
+Date:   Tue Mar 20 13:45:47 2012 -0500
+
+    Added notes to ppt
+
+[33mcommit 2623709a14da3b0681d9b080d77b5b0be973eb14[m
+Author: unknown <Robert@Cool.(none)>
+Date:   Tue Mar 20 13:22:27 2012 -0500
+
+    Added notes
+
+[33mcommit a0e79ffad6efc31bcccacf1b3f1eef617ebd9a82[m
+Author: unknown <Robert@Cool.(none)>
+Date:   Tue Mar 20 13:18:47 2012 -0500
+
+    Finished LCO brief PPT
+
+[33mcommit c990bbaee4f0419415e66e308983e5ec9cb8a627[m
+Author: unknown <Adam@Adam-PC.(none)>
+Date:   Tue Mar 20 10:50:03 2012 -0500
+
+    Final ppts
+
+[33mcommit 2851c5f429ffeaa0beb394e7dc28efa1705747f8[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Tue Mar 20 10:13:15 2012 -0500
+
+    Added KD's slides
+
+[33mcommit cb54c400de65c8eee7bfec26c273bc22557a9cbb[m
+Author: unknown <Robert@Cool.(none)>
+Date:   Tue Mar 20 03:33:33 2012 -0500
+
+    Uploading Powerpoint Formatted Final.
+
+[33mcommit be5dd5fbe7616eb6845f0bce13554e481e2cb4d9[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Tue Mar 20 02:13:47 2012 -0500
+
+    Added a cover page file for binder. LCO milestone... done \!
+
+[33mcommit 4e4fd5ea7150a740a4381ac01d0489e62b8cdc7d[m
+Author: unknown <Adam@Adam-PC.(none)>
+Date:   Tue Mar 20 02:05:23 2012 -0500
+
+    Converted ppt to pdf
+
+[33mcommit 06f7453b28a66dcdb5bf80a0d1090fd4ab0c9c16[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Tue Mar 20 01:50:21 2012 -0500
+
+    Final file structures
+
+[33mcommit 318569d5608d12274d5226c5e894a9444da9d883[m
+Author: unknown <Adam@Adam-PC.(none)>
+Date:   Tue Mar 20 01:46:33 2012 -0500
+
+    Done with PPT
+
+[33mcommit 6ac8b567bff5febf72280dbae265caf69a660179[m
+Author: unknown <Adam@Adam-PC.(none)>
+Date:   Tue Mar 20 01:19:13 2012 -0500
+
+    Adding some final pdf
+    's
+
+[33mcommit 585e3569b8dc1f1f0ac68e89d98fd3828242de1e[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Tue Mar 20 01:06:35 2012 -0500
+
+    Added some slides
+
+[33mcommit 49d9c6187bb9666780c86c536d7a2ce53ef854e8[m
+Author: unknown <Robert@Cool.(none)>
+Date:   Tue Mar 20 00:18:52 2012 -0500
+
+    Pushing Vision ppt slide.
+
+[33mcommit d0a69919b449d96fe2a605d055764fa8da5a4af1[m
+Author: unknown <Robert@Cool.(none)>
+Date:   Mon Mar 19 23:37:52 2012 -0500
+
+    deleted not-filled in... because vision doc. is now filled in.
+
+[33mcommit b3f14cfac9a58e74550db8b02e25b4916e572a74[m
+Author: unknown <Robert@Cool.(none)>
+Date:   Mon Mar 19 23:26:57 2012 -0500
+
+    vision
+
+[33mcommit cd7b96771ffb96b7f7c7950903f86ee5004b3a02[m
+Author: unknown <Robert@Cool.(none)>
+Date:   Mon Mar 19 23:13:24 2012 -0500
+
+    test
+
+[33mcommit 0ecb197e12cfdcaa77f122cd24962ede556b3bf0[m
+Author: unknown <Robert@Cool.(none)>
+Date:   Mon Mar 19 23:12:18 2012 -0500
+
+    vision
+
+[33mcommit 4ed2fbb519919251dce4d05d3ad09d4830126554[m
+Author: unknown <Robert@Cool.(none)>
+Date:   Mon Mar 19 23:10:54 2012 -0500
+
+    Finished Vision- Fornof
+
+[33mcommit 76fc8f6f2fadb61713a196a6eabf04ab562213a7[m
+Merge: 6ff08c2 053e8bd
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Mon Mar 19 23:04:26 2012 -0500
+
+    Merge branch 'master' of github.com:hjc1710/JagTrack
+
+[33mcommit 053e8bd85dba2ca6763516a3e83a8ac787a75a87[m
+Author: unknown <Adam@Adam-PC.(none)>
+Date:   Mon Mar 19 23:03:45 2012 -0500
+
+    sfosdiofjsd
+
+[33mcommit 6ff08c27a30b5900043b5ea06b3e3ee21030303a[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Mon Mar 19 23:02:58 2012 -0500
+
+    Added a glossary
+
+[33mcommit adfa85a2de36536b2f392cf9aae2dfef6acb9178[m
+Author: unknown <Adam@Adam-PC.(none)>
+Date:   Mon Mar 19 22:40:13 2012 -0500
+
+    Sleeepy
+
+[33mcommit 0f20644999e7171555a3ca58e5ad221e2b6c81b8[m
+Merge: 7d7480f 9fefe20
+Author: unknown <Adam@Adam-PC.(none)>
+Date:   Mon Mar 19 22:39:44 2012 -0500
+
+    sdlkfmsdklm
+
+[33mcommit 7d7480f1d468dbdea4430531d8dd1421505372fd[m
+Author: unknown <Adam@Adam-PC.(none)>
+Date:   Mon Mar 19 22:31:58 2012 -0500
+
+    Blargh
+
+[33mcommit 9d1fae49d945501cfe6cdc9a49c8833f93e829ab[m
+Author: unknown <Adam@Adam-PC.(none)>
+Date:   Mon Mar 19 22:31:41 2012 -0500
+
+    Blargh
+
+[33mcommit 9fefe20939311f3aa9c75c6bbbc6183df1e6dd7b[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Mon Mar 19 22:29:55 2012 -0500
+
+    Made some docs presentable
+
+[33mcommit c29dfd1b042a4ba63dd908bfef86380ead05face[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Mon Mar 19 22:09:05 2012 -0500
+
+    Orig QA Plan
+
+[33mcommit fb089cfb77c6b3ea775cfdcf6b3a505efa608d34[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Mon Mar 19 22:01:54 2012 -0500
+
+    Added final prototype, corrected business rules
+
+[33mcommit 13eb0d26b58db1905d4afb292d56b9cc1dd3edb0[m
+Author: unknown <Adam@Adam-PC.(none)>
+Date:   Mon Mar 19 22:00:53 2012 -0500
+
+    Stuff
+
+[33mcommit e6a7ee737e60dc1a6a13a65c74bf356158980f0c[m
+Author: unknown <Adam@Adam-PC.(none)>
+Date:   Mon Mar 19 21:44:37 2012 -0500
+
+    Changed folder structure, renamed artifacts.
+
+[33mcommit 53921ebbf41d36950b8a50662f5da955879cda4a[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Mon Mar 19 21:31:57 2012 -0500
+
+    Finished dev case
+
+[33mcommit 6b3e4df1d2808085b026dd2e4bcdfee92ea6381e[m
+Merge: bb6fb43 bcf334c
+Author: unknown <Adam@Adam-PC.(none)>
+Date:   Mon Mar 19 21:17:56 2012 -0500
+
+    Merge branch 'master' of github.com:hjc1710/JagTrack
+
+[33mcommit bb6fb43725f3304d179200f613230d9990674f37[m
+Author: unknown <Adam@Adam-PC.(none)>
+Date:   Mon Mar 19 21:16:55 2012 -0500
+
+    Changed artifact names and edited artifacts
+
+[33mcommit bcf334cf4ff701404445ecf8e4c090379512af1d[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Mon Mar 19 21:12:40 2012 -0500
+
+    Added some classes, fixed some typos. Made Adam's classes real. Added sql to make db tables.
+
+[33mcommit 515ceef0e7cbaef3941cb7aabc408ab13101fd8a[m
+Author: unknown <Adam@Adam-PC.(none)>
+Date:   Mon Mar 19 20:17:01 2012 -0500
+
+    Added a class
+
+[33mcommit e4b953151d43d34e0261fae1fe71f551f8cd6dcc[m
+Author: unknown <Adam@Adam-PC.(none)>
+Date:   Mon Mar 19 20:16:09 2012 -0500
+
+    Editted classes.
+
+[33mcommit bb8b9c97de26bf17b65788b89d9abe3b117cc857[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Mon Mar 19 19:57:13 2012 -0500
+
+    Unzipped working code
+
+[33mcommit 3468ddc29ef7aa1087c7258392a92300c11748fe[m
+Merge: 107d5ba ef27ef5
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Mon Mar 19 19:48:59 2012 -0500
+
+    Merge branch 'master' of github.com:hjc1710/JagTrack
+
+[33mcommit 107d5ba90ea130a935a3eedc0de0a13baccfbf67[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Mon Mar 19 19:48:21 2012 -0500
+
+    Added working code
+
+[33mcommit ef27ef558eace4b3cc8ddbafb7a0c2b1e1835e2a[m
+Merge: c7abc87 ba8d7f3
+Author: unknown <Robert@Cool.(none)>
+Date:   Mon Mar 19 19:35:15 2012 -0500
+
+    Merge branch 'master' of https://fornof@github.com/hjc1710/JagTrack.git
+
+[33mcommit c7abc87ed367aaf2bff91935fdadbefcee5027c1[m
+Author: unknown <Robert@Cool.(none)>
+Date:   Mon Mar 19 19:30:30 2012 -0500
+
+    Glossary Compiled and pdf printable
+
+[33mcommit 00e78b8e9048e4d23d7d9156370037e5244fd016[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Mon Mar 19 18:07:52 2012 -0500
+
+    Finished dev case
+
+[33mcommit f3af984bf519ac1f853c313c2985564711c0b0c2[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Mon Mar 19 18:07:42 2012 -0500
+
+    Finished dev case
+
+[33mcommit ba8d7f36ece05fa5affa4057997178d62cccec3d[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Mon Mar 19 16:52:19 2012 -0500
+
+    renamed some artifacts
+
+[33mcommit 4d861be37eb5163df57372514a18307c71cfb3b6[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Mon Mar 19 16:46:29 2012 -0500
+
+    PDF of domain model
+
+[33mcommit 28df6a003da105f81f1b4d08632b47e8801d7e83[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Mon Mar 19 16:11:54 2012 -0500
+
+    Added Domain MModel
+
+[33mcommit 8417914eb8255eaeae079f2c2fca5b57376e5a7a[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Mon Mar 19 00:27:14 2012 -0500
+
+    Adding cm plan
+
+[33mcommit cd6c8c8a32ea3bef19d1906013bc989be8d20001[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Mon Mar 19 00:18:39 2012 -0500
+
+    Corrected the QA plan. Added working glossary. Added Dev Case
+
+[33mcommit d6f7f3c9ec208997abb357df141d218232ec141a[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Sun Mar 18 19:05:50 2012 -0500
+
+    Added requirements traceability slide
+
+[33mcommit 180589119f8e978d06ac8ea3a070a950513ad320[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Sat Mar 17 23:06:55 2012 -0500
+
+    Corrected some use cases, made different copies of files for corrections
+
+[33mcommit 2566691d6c6e189eb39d3f197114da8270424777[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Sat Mar 17 18:40:42 2012 -0500
+
+    Corrected some brief use cases
+
+[33mcommit 59fb766d9d18d4999e3795dc4ab179c69ba2f03f[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Sat Mar 17 14:57:41 2012 -0500
+
+    Added iteration plan
+
+[33mcommit 3542ec9e1e017e3adb3de0a45fa8af2df7eff3ed[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Fri Mar 16 19:25:44 2012 -0500
+
+    Add R/A team 1's slides
+
+[33mcommit 6b14a9b0136e26fe87a62452d54b317d9f082092[m
+Merge: 922d9e9 88ec616
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Fri Mar 16 18:28:10 2012 -0500
+
+    Merge branch 'master' of github.com:hjc1710/JagTrack
+
+[33mcommit 922d9e980ead89917d0c1e6a9d408dca338b6f1b[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Fri Mar 16 18:27:47 2012 -0500
+
+    Adding Business Rules, QA Plan, Risk List
+
+[33mcommit 88ec616d2738c3c1b2f196b9fa02d35fa2e91542[m
+Author: unknown <Robert@Cool.(none)>
+Date:   Fri Mar 16 16:48:00 2012 -0500
+
+    moving
+
+[33mcommit d35e48b6aab7cf54151daee76ccd6c5c6495be6b[m
+Author: unknown <Robert@Cool.(none)>
+Date:   Fri Mar 16 16:47:00 2012 -0500
+
+    Commit quickstart!
+
+[33mcommit a18368d5792eb691d0d408ed9c14e69a5b2e4b93[m
+Author: unknown <Robert@Cool.(none)>
+Date:   Fri Mar 16 16:08:41 2012 -0500
+
+    placeholders
+
+[33mcommit 2d66431d0a3887a41733f2fcf3da294c81778510[m
+Author: unknown <Robert@Cool.(none)>
+Date:   Fri Mar 16 16:03:20 2012 -0500
+
+    Uploading placeholders of what is expected in the LCO brief. For more info, consult the
+    CSC-331-project-LCO.pdf found in the LCO_Brief_Placeholder folder.
+    Todo:
+    ppt
+    print off pdfs
+    glossary update - move to excel spreadsheet.
+
+[33mcommit b2f2e9d544898a0b6cdbbf845d64fa366594c41c[m
+Author: unknown <Robert@Cool.(none)>
+Date:   Fri Mar 16 15:52:29 2012 -0500
+
+    deleted test code
+
+[33mcommit f0e0bd1e2c5c925b8ef4a8ba8fe479514de3fcd1[m
+Author: unknown <Robert@Cool.(none)>
+Date:   Fri Mar 16 15:49:11 2012 -0500
+
+    test upload
+
+[33mcommit af62e3b117821cf7e3d76bd7d0af6494f99a7bcf[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Thu Mar 15 22:57:51 2012 -0500
+
+    Added Business Case (Caleb), Risk Mgmt Plan (Brad)
+
+[33mcommit f915a0c660be76aaf1a361ad2a7ada9059ed5be9[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Tue Mar 13 11:43:20 2012 -0600
+
+    Added a number of finished artifacts
+
+[33mcommit 20b8d19d8350864308c0344b90060afc23d63b44[m
+Merge: 86bae1b 6b17f58
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Fri Mar 9 13:03:59 2012 -0600
+
+    Merge branch 'master' of github.com:hjc1710/JagTrack
+
+[33mcommit 86bae1b4d7d43d3c7979a17f775a41add990fe74[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Fri Mar 9 13:03:39 2012 -0600
+
+    Added R/A group 2's use cases, both brief and fully dressed
+
+[33mcommit 6b17f58e0dfb8341266c250f76370cd37d3195ad[m
+Merge: 5771777 6af7f83
+Author: Nasawa <keitonasawa@gmail.com>
+Date:   Fri Mar 9 10:14:35 2012 -0600
+
+    Merge branch 'master' of github.com:hjc1710/JagTrack
+
+[33mcommit 6af7f83dce32c24e5d24f6024c9332a5a2f11b57[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Thu Mar 8 23:17:58 2012 -0600
+
+    Added working version of Fully Dressed Use Case: Boarding JagTran
+
+[33mcommit 00b1f26974b5d2211ae675f3d92dc70cd3fed68d[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Tue Mar 6 23:05:22 2012 -0600
+
+    Adding brief use cases for R/A Team 1
+
+[33mcommit 577177788994fd1bf7fd5d6c2bbf198c42adee48[m
+Author: Nasawa <keitonasawa@gmail.com>
+Date:   Mon Mar 5 11:23:32 2012 -0600
+
+    Er, commit.
+
+[33mcommit 90b789f6b36ca5d045093f5d037beaed2f0898e1[m
+Author: Nasawa <keitonasawa@gmail.com>
+Date:   Mon Mar 5 11:23:07 2012 -0600
+
+    Just a small update, nothing major. Will dumb down for more prototype-based development soon.
+
+[33mcommit a3e4a0290043fce8c9711285f224da0466acce53[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Tue Feb 28 19:29:39 2012 -0600
+
+    Finally added my own homeworks...
+
+[33mcommit eb4cb4af4fd0cf242618cf3d73881d66bf3f9b21[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Tue Feb 28 15:23:22 2012 -0600
+
+    Adding one more hw
+
+[33mcommit 3e65ac2339263d69ddc43df4bb6749aae1048d64[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Tue Feb 28 15:20:25 2012 -0600
+
+    Added Inception doc and Project overview doc
+
+[33mcommit f25188a83d226ce1d7f3d5df8ec70226904b23ac[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Mon Feb 27 00:02:28 2012 -0600
+
+    Remove old README
+
+[33mcommit eb5c7d3489f552e53067756979f9e143cd888712[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Mon Feb 27 00:01:57 2012 -0600
+
+    Markdown version of README
+
+[33mcommit aa90018a660f2aec3d24088cf9a0c73d1d368e30[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Sun Feb 26 23:51:46 2012 -0600
+
+    Added some more homeworks
+
+[33mcommit 5e95ee31cba00fa468968297909f4768061559ad[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Fri Feb 24 13:31:31 2012 -0600
+
+    Added 3 users use cases (Xingyu, Ray, Robert) and a folder to hold all use cases
+
+[33mcommit e6c33e96e06fcde3e6ff42ff487125e468d9112f[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Fri Feb 17 13:22:30 2012 -0600
+
+    Added the picture
+
+[33mcommit 181c2a48561eb70b47c0d8806363de714601d87a[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Thu Feb 16 13:05:15 2012 -0600
+
+    Addred RUP templates
+
+[33mcommit 72481309cb0bf8cf5ed274648d1e4fbffcafd09d[m
+Author: Nasawa <keitonasawa@gmail.com>
+Date:   Thu Feb 16 12:40:42 2012 -0600
+
+    First code
+
+[33mcommit 81f9a052a5fc6b30198691d4c3ed866a3a7dd126[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Fri Feb 10 18:22:47 2012 -0600
+
+    README exists now
+
+[33mcommit 99f1bfddfd1d0bb6f3bb5f07478eeee1bfcea27f[m
+Author: Hayden Chudy <hjc1710@gmail.com>
+Date:   Fri Feb 10 18:21:46 2012 -0600
+
+    first commit
