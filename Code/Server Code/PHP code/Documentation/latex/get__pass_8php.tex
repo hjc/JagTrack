@@ -1,0 +1,78 @@
+\hypertarget{get__pass_8php}{
+\section{get\_\-pass.php File Reference}
+\label{get__pass_8php}\index{get\_\-pass.php@{get\_\-pass.php}}
+}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{get__pass_8php_a4cad772a42203b0ff8351e1a060df14d_a4cad772a42203b0ff8351e1a060df14d}{\$bus\_\-id} = \$\_\-GET\mbox{[}'b'\mbox{]}
+\item 
+\hyperlink{get__pass_8php_a22377fbdee6b0aad7e6e4b043f2b6603_a22377fbdee6b0aad7e6e4b043f2b6603}{\$envjson} = json\_\-decode(file\_\-get\_\-contents(\char`\"{}/home/dotcloud/environment.json\char`\"{}),true)
+\item 
+\hyperlink{get__pass_8php_a580989e8e3521433691a0351287f6315_a580989e8e3521433691a0351287f6315}{\$mysqli}
+\item 
+\hyperlink{get__pass_8php_a531a3cdb9017f75f6acb74a688f1ceeb_a531a3cdb9017f75f6acb74a688f1ceeb}{\$q\_\-bus}
+\item 
+\hyperlink{get__pass_8php_a49a8a4009b02e49717caa88b128affc5_a49a8a4009b02e49717caa88b128affc5}{\$res} = \$mysqli-\/$>$query(\$q\_\-bus)
+\end{DoxyCompactItemize}
+
+
+\subsection{Variable Documentation}
+\hypertarget{get__pass_8php_a4cad772a42203b0ff8351e1a060df14d_a4cad772a42203b0ff8351e1a060df14d}{
+\index{get\_\-pass.php@{get\_\-pass.php}!\$bus\_\-id@{\$bus\_\-id}}
+\index{\$bus\_\-id@{\$bus\_\-id}!get_pass.php@{get\_\-pass.php}}
+\subsubsection[{\$bus\_\-id}]{\setlength{\rightskip}{0pt plus 5cm}\$bus\_\-id = \$\_\-GET\mbox{[}'b'\mbox{]}}}
+\label{get__pass_8php_a4cad772a42203b0ff8351e1a060df14d_a4cad772a42203b0ff8351e1a060df14d}
+
+
+Definition at line 19 of file get\_\-pass.php.
+
+\hypertarget{get__pass_8php_a22377fbdee6b0aad7e6e4b043f2b6603_a22377fbdee6b0aad7e6e4b043f2b6603}{
+\index{get\_\-pass.php@{get\_\-pass.php}!\$envjson@{\$envjson}}
+\index{\$envjson@{\$envjson}!get_pass.php@{get\_\-pass.php}}
+\subsubsection[{\$envjson}]{\setlength{\rightskip}{0pt plus 5cm}\$envjson = json\_\-decode(file\_\-get\_\-contents(\char`\"{}/home/dotcloud/environment.json\char`\"{}),true)}}
+\label{get__pass_8php_a22377fbdee6b0aad7e6e4b043f2b6603_a22377fbdee6b0aad7e6e4b043f2b6603}
+
+
+Definition at line 22 of file get\_\-pass.php.
+
+\hypertarget{get__pass_8php_a580989e8e3521433691a0351287f6315_a580989e8e3521433691a0351287f6315}{
+\index{get\_\-pass.php@{get\_\-pass.php}!\$mysqli@{\$mysqli}}
+\index{\$mysqli@{\$mysqli}!get_pass.php@{get\_\-pass.php}}
+\subsubsection[{\$mysqli}]{\setlength{\rightskip}{0pt plus 5cm}\$mysqli}}
+\label{get__pass_8php_a580989e8e3521433691a0351287f6315_a580989e8e3521433691a0351287f6315}
+{\bfseries Initial value:}
+\begin{DoxyCode}
+ new mysqli($envjson['DOTCLOUD_DB_MYSQL_HOST'],
+                     'someuser',         # username
+                     'somepass',        # password
+                     'jagtrack',        # db name
+                     $envjson['DOTCLOUD_DB_MYSQL_PORT'])
+\end{DoxyCode}
+
+
+Definition at line 26 of file get\_\-pass.php.
+
+\hypertarget{get__pass_8php_a531a3cdb9017f75f6acb74a688f1ceeb_a531a3cdb9017f75f6acb74a688f1ceeb}{
+\index{get\_\-pass.php@{get\_\-pass.php}!\$q\_\-bus@{\$q\_\-bus}}
+\index{\$q\_\-bus@{\$q\_\-bus}!get_pass.php@{get\_\-pass.php}}
+\subsubsection[{\$q\_\-bus}]{\setlength{\rightskip}{0pt plus 5cm}\$q\_\-bus}}
+\label{get__pass_8php_a531a3cdb9017f75f6acb74a688f1ceeb_a531a3cdb9017f75f6acb74a688f1ceeb}
+{\bfseries Initial value:}
+\begin{DoxyCode}
+ sprintf("SELECT * FROM jt_bus WHERE bus_id = '%s'",
+      $bus_id)
+\end{DoxyCode}
+
+
+Definition at line 35 of file get\_\-pass.php.
+
+\hypertarget{get__pass_8php_a49a8a4009b02e49717caa88b128affc5_a49a8a4009b02e49717caa88b128affc5}{
+\index{get\_\-pass.php@{get\_\-pass.php}!\$res@{\$res}}
+\index{\$res@{\$res}!get_pass.php@{get\_\-pass.php}}
+\subsubsection[{\$res}]{\setlength{\rightskip}{0pt plus 5cm}\$res = \$mysqli-\/$>$query(\$q\_\-bus)}}
+\label{get__pass_8php_a49a8a4009b02e49717caa88b128affc5_a49a8a4009b02e49717caa88b128affc5}
+
+
+Definition at line 37 of file get\_\-pass.php.
+

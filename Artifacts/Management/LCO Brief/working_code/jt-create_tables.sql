@@ -141,10 +141,10 @@ CREATE TABLE IF NOT EXISTS `jt_stop` (
 INSERT INTO jt_bus 
   (max_seats, arrival_time, departure_time, current_route_id, next_stop_id, passenger_count)
   VALUES (30, NOW(), NOW(), 1, 1, 18),
-  (30, NOW(), NOW(), 1, 2, 18),
-  (30, NOW(), NOW(), 2, 5, 18),
-  (30, NOW(), NOW(), 2, 6, 18),
-  (30, NOW(), NOW(), 2, 7, 18) ;
+  (30, NOW(), NOW(), 1, 2, 22),
+  (30, NOW(), NOW(), 2, 5, 20),
+  (30, NOW(), NOW(), 2, 6, 16),
+  (30, NOW(), NOW(), 2, 7, 12) ;
   
   
 INSERT INTO jt_route

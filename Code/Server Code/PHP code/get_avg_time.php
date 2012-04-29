@@ -1,5 +1,44 @@
 <?php
-	function get_bus_avg($stop_id, $route_id, $mysqli) {
+	/**
+	 *@file Gets average arrival time for a given stop (in minutes). If there is
+	 *   no bus that is going to the given stop right away, calculates when the 
+	 *   next will arrive (by going through all the stops). 
+	 * 
+	 * @param $_GET['s']
+	 *   The s parameter should be passed through the HTTP request in the URL (in
+	 *   a GET fashion). It should contain the stop id we want to find an average
+	 *   time for.
+	 * @param $_GET['r']
+	 *   The s parameter should be passed through the HTTP request in the URL (in
+	 *   a GET fashion). It should contain the route id that relates this stop to
+	 *   a route (a stop could have multiple routes).
+	 * 
+	 * @return JSON Average Time
+	 *   Returns the average time in a json object or the string "Error".
+	 */
+
+	/**
+	 * Queries the database and gets the average time it takes to get to a stop,
+	 *   assuming the bus is coming from the stop directly before this one.
+	 * 
+	 * @param int $stop_id 
+	 *   ID for the stop we want the average time of, if we want to know how long
+	 *   it takes for a bus to go from stop 2 to stop 3 on route 1, we would pass
+	 *   in 3 (average time to get to stop 3).
+	 * 
+	 * @param int $route_id
+	 *   Stops can have multiple routes, use this to ensure we pull right time.
+	 * 
+	 * @param mysqli $mysqli
+	 *   Already made mysqli object that is connected to dotCloud DB (making it
+	 *   is a mild pain).
+	 * 
+	 * @return null|avg_time_to_next_stop
+	 *   Returns either an integer which represents the average time it will
+	 *   take for a bus, on the specified route, to get to the specified stop (in
+	 *   minutes) or returns NULL if query failed.
+	 **/
+	function get_avg_time($stop_id, $route_id, $mysqli) {
 		//figure out avg time for this piece of the route
 		$q_r = sprintf("
 			SELECT 
@@ -53,7 +92,7 @@
 			$done = TRUE;
 			
 			//figure out avg time for this piece of the route
-			$avg = get_bus_avg($stop_id, $route_id, $mysqli);
+			$avg = get_avg_time($stop_id, $route_id, $mysqli);
 			
 			//see if query worked
 			if ($avg !== NULL) {
@@ -97,36 +136,31 @@
 			for ($i = 0; $i < count($stops); $i++) {
 				
 				//this is the previous stop in the chain! look for a bus going
-				//here and
+				//here and stop 
 				if ($stops[$i]->next_stop_id == $desired_stop_id) {
-					//print 'in if';
+					//increment average
 					$avg += $stops[$i]->avg_time_to_next_stop;
-					//print $avg; print '<br>';
 					
-					//print_r($stops[$i]);
-					
-					//print '<br>';
-					
+					//go through every bus
 					for ($j = 0; $j < count($buses); $j++) {
-						//print_r($buses[$j]);
-						//print "<br>";
+						
+						//if bus' next stop id is the one we want, we can stop
+						//after this
 						if ($buses[$j]->next_stop_id == $desired_stop_id) {
-							//print "breaking<br>";
-							//print json_encode($buses[$j]);
 							$done = TRUE;
 							break;
 						}
 					}
-					
 					if ($done) {
 						break;
 					}
 					
+					//change the desired stop id
 					$desired_stop_id = $stops[$i]->stop_id;
 				}
 			}
 		}
+		//print the data
 		print(json_encode($avg));
 	}
-	//print 'bad query';
 ?>
