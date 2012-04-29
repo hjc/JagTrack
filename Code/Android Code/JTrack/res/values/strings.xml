@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, HelloAndroid!</string>
+    <string name="app_name">Hello, Android</string>
+    
+    <string name="bus_prompt">Choose a JagStop</string>
+    <string-array name="stops_array">
+        <item>Student Center</item>
+        <item>Humanities South</item>
+        <item>Humanities North</item>
+        <item>Engineering</item>
+        <item>Grove</item>
+        <item>Dining Hall</item>
+        <item>Greek Row</item>
+        <item>Delta/Epsilon</item>
+<!--         <item>Rec Center</item> -->
+<!--         <item>Hospital</item> -->
+<!--         <item>Allied Health</item> -->
+<!--         <item>Laidlaw/MCOB</item> -->
+<!--         <item>Shelby Hall</item> -->
+<!--         <item>UCOM</item> -->
+<!--         <item>Mitchell Center</item> -->
+<!--         <item>Library</item> -->
+    </string-array>
+    <string name="route_prompt">Choose a Route</string>
+    <string-array name="routes_array">
+        <item>Red</item>
+<!--         <item>Yellow</item> -->
+        <item>Blue</item>
+<!--         <item>Green</item> -->
+    </string-array>
+    
+
+</resources>
