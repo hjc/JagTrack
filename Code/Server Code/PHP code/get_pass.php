@@ -15,12 +15,29 @@
 	 *   Return the current number of passengers on a given bus.
 	 */
 
+	 
+
 	//get bus param
 	$bus_id = $_GET['b'];
 	
 	if (! is_numeric($bus_id)) {
-		echo "error!!";
+		echo "<html>
+			    <body>error!! 
+				  <a href=\"http://jagtrack-amoore913.dotcloud.com/form.html\">
+					Go Back
+				  </a>
+				</body>http://www.reddit.com/r/radiohead/comments/smqpr/an_acoustic_lotus_flower/
+			</html>";
+		exit;
 	}
+	
+	echo <<<EOD
+	 <html>
+		 <head>
+			<title>Passengers on bus number: $bus_id</title>
+		</head>
+		<body style="text-align: center; padding-top: 10%;">
+EOD;
 	
 	//dotCloud stuff
 	$envjson = json_decode(file_get_contents("/home/dotcloud/environment.json"),true);
@@ -44,10 +61,19 @@
 		$pass = $bus->passenger_count;
 		
 		//JSON it back!
-		print(json_encode($pass));
+		print($pass . " passengers on bus #" . $bus_id);
 	}
 	else {
 		//throw error
 		print('error!!!');
 	}		
+	
+	print <<<EOTA
+	<form action="http://jagtrack-amoore913.dotcloud.com/form.html">
+		<br>
+		<input type="submit" value="Back">
+	</form>
+	</body>
+</html>
+EOTA;
 ?>

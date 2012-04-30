@@ -10,7 +10,7 @@
 	 *   time for.
 	 * @param $_GET['r']
 	 *   The s parameter should be passed through the HTTP request in the URL (in
-	 *   a GET fashion). It should contain the route id that relates this stop to
+	 *   a GET fashion). It should contain the route color that relates this stop to
 	 *   a route (a stop could have multiple routes).
 	 * 
 	 * @return JSON Average Time
@@ -64,7 +64,9 @@
 
 	//get http vars
 	$stop_id = $_GET['s'];
-	$route_id = $_GET['r'];
+	$route_color = $_GET['r'];
+	
+	
 
 	// Create MySQL Connection
     $mysqli = new mysqli($envjson['DOTCLOUD_DB_MYSQL_HOST'],
@@ -72,6 +74,22 @@
                      's1lw2y44',        # password
                      'jagtrack',        # db name
                      $envjson['DOTCLOUD_DB_MYSQL_PORT']);
+	
+	//get route id from color to make ADAM HAPPY
+	$q_route = sprintf("SELECT route_id FROM jt_route WHERE color = '%s'",
+	 mysql_escape_string(strtolower($route_color)));
+	
+	
+	$res = $mysqli->query($q_route);
+	if ($r = $res->fetch_object()) {
+		$route_id = $r->route_id;
+	}
+	else {
+		echo "Error with route color!";
+		exit;
+	}
+	
+	
 	
 	//query for buses on this route
 	$q_bus = sprintf("SELECT * FROM jt_bus WHERE current_route_id = '%s'",
