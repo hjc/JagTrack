@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension-point id="debugger" name="%debugger" schema="schema/debugger.exsd"/>
+   <extension-point id="invoke" name="%invoke" schema="schema/invoke.exsd"/>
+   <extension-point id="processor" name="%processor" schema="schema/processor.exsd"/>
+   <extension-point id="processorType" name="%processorType" schema="schema/processorType.exsd"/>
+ <extension
+       point="org.eclipse.debug.core.launchDelegates">
+    <launchDelegate
+          delegate="org.eclipse.wst.xsl.jaxp.launching.internal.JAXPJavaLaunchConfigurationDelegate"
+          delegateDescription="The XSLT Launcher for JAXP supports running and debugging transformations using JAXP-compliant XSLT processors"
+          id="org.eclipse.wst.xsl.launching.internal.jaxp.JAXPLaunchConfigurationDelegate"
+          modes="run, debug"
+          name="%launchDelegate.name.0"
+          type="org.eclipse.wst.xsl.launching.launchConfigurationType">
+    </launchDelegate>    
+ </extension>
+     	
+	<extension point="org.eclipse.core.runtime.preferences">
+		<initializer
+			class="org.eclipse.wst.xsl.jaxp.launching.internal.PreferenceInitializer">
+		</initializer>
+	</extension>
+ 
+	<extension point="org.eclipse.wst.xsl.jaxp.launching.invoke">
+		<invoker id="org.eclipse.wst.xsl.launching.jaxp.invoke"
+			class="org.eclipse.wst.xsl.jaxp.debug.invoker.internal.JAXPSAXProcessorInvoker"
+			classpath="${eclipse_orbit:org.eclipse.wst.xsl.jaxp.debug};${eclipse_orbit:org.apache.commons.logging};${eclipse_orbit:org.apache.log4j}" />
+	</extension>
+
+  	<extension
+	       point="org.eclipse.wst.xsl.jaxp.launching.processorType">
+     <processorType
+            attributeProperties="JREDefaultAttributes.properties"
+            id="org.eclipse.wst.xsl.launching.processorType.jreDefault"
+            label="%processorType.label.1"
+            outputProperties="JREDefaultOutputProperties.properties" />
+	 </extension>
+
+	<extension
+	         point="org.eclipse.wst.xsl.jaxp.launching.processor">
+        <processor
+              classpath=""
+              id="org.eclipse.wst.xsl.launching.jre.default"
+              label="%processor.label.1"
+              processorTypeId="org.eclipse.wst.xsl.launching.processorType.jreDefault"
+              supports="1.0"/>
+	 </extension>
+ 
+</plugin>

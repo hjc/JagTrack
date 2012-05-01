@@ -1,0 +1,80 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: AZV1FOWCM5Y4Ix1HOHI/VlmmOFg=
+Created-By: 1.6.0 (IBM Corporation)
+SHA1-Digest-Manifest-Main-Attributes: UnT9ocFR+6Hn/KBM6plOjdlaudQ=
+
+Name: org/apache/commons/logging/package.html
+SHA1-Digest: j1NmcAUKBcMhwxxrHo+wVFqZsto=
+
+Name: org/apache/commons/logging/impl/NoOpLog.class
+SHA1-Digest: cGa64y0TgwIMkgV0McjpOzo3otM=
+
+Name: org/apache/commons/logging/LogFactory$1.class
+SHA1-Digest: hmzNsF7jsy4rDXj+mKDcwrbgyDc=
+
+Name: org/apache/commons/logging/LogFactory$2.class
+SHA1-Digest: Mg8aqamqO9itpaiiXsE9DGKmZJw=
+
+Name: org/apache/commons/logging/LogFactory$3.class
+SHA1-Digest: GIvfTxJphc+cNUPgecMCpGEFTQ8=
+
+Name: plugin.properties
+SHA1-Digest: cxIaiFWOcP+t/KdbmFPJXfmADPs=
+
+Name: org/apache/commons/logging/impl/LogKitLogger.class
+SHA1-Digest: 39q3Q/HNy/T6OjZRZjMchbvmH4k=
+
+Name: org/apache/commons/logging/impl/LogFactoryImpl.class
+SHA1-Digest: ZutgcM2dZbWPZLpuvtzfCFR8s6g=
+
+Name: org/apache/commons/logging/impl/package.html
+SHA1-Digest: fWtlPj/NC8BlxGSJ5tMwXqEAOS8=
+
+Name: org/apache/commons/logging/impl/Log4JCategoryLog.class
+SHA1-Digest: BIaGtx/aEkKky94bTMXiWudI/wM=
+
+Name: about_files/LICENSE.txt
+SHA1-Digest: AZ1Gz6XJJe7p5KHLgXjkErkNZ+A=
+
+Name: org/apache/commons/logging/impl/SimpleLog.class
+SHA1-Digest: SsDpJlEL9sgm9oqN8bx01HfgbfA=
+
+Name: org/apache/commons/logging/impl/AvalonLogger.class
+SHA1-Digest: kJ+Ab+VgxVpmRJYQzXDVYLc3UBk=
+
+Name: org/apache/commons/logging/LogSource.class
+SHA1-Digest: YrA5uWLjxfo+E+4zbRxoWshviic=
+
+Name: org/apache/commons/logging/impl/Log4jFactory.class
+SHA1-Digest: dLTKzAjznODgU4xEq7i6Nw0bWmQ=
+
+Name: org/apache/commons/logging/impl/LogFactoryImpl$1.class
+SHA1-Digest: 84pHXspNDLQ8mC29HYChrqAWU9s=
+
+Name: org/apache/commons/logging/Log.class
+SHA1-Digest: vFsSXXVb6ENgUB6pbkeDPLmh+X8=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: SAqY+5ITAL0mkdYeijlSRhyIaZk=
+
+Name: about_files/NOTICE.txt
+SHA1-Digest: V+d/8JzMFhIE9yoTUn2tkUgIro4=
+
+Name: org/apache/commons/logging/impl/SimpleLog$1.class
+SHA1-Digest: vobKcayijmQnfW1IyePwudsuHYU=
+
+Name: org/apache/commons/logging/impl/Jdk14Logger.class
+SHA1-Digest: KekIFmCQao9Wa/e77uXrc2vge9Y=
+
+Name: about.html
+SHA1-Digest: prqdmjHeZMa2Ahw+uUCDzSyDmHM=
+
+Name: org/apache/commons/logging/impl/Log4JLogger.class
+SHA1-Digest: zDff8T0e1H+LKOn0SogJ6WdFiUA=
+
+Name: org/apache/commons/logging/LogConfigurationException.class
+SHA1-Digest: cO2NQQTlvgoDFHEtV/EA+/jGHX4=
+
+Name: org/apache/commons/logging/LogFactory.class
+SHA1-Digest: 8XsYewAe0ikzh/lgnP1WFHd5vQY=
+

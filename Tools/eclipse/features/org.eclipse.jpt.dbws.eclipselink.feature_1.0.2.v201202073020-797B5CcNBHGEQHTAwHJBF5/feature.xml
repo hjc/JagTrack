@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.jpt.dbws.eclipselink.feature"
+      label="%featureName"
+      version="1.0.2.v201202073020-797B5CcNBHGEQHTAwHJBF5"
+      provider-name="%providerName"
+      plugin="org.eclipse.jpt.dbws.eclipselink.branding"
+      
+      >
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.jpt.common.eclipselink.feature" version="1.0.0"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.jpt.dbws.eclipselink.ui"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.v201104110000"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jpt.dbws.eclipselink.core.gen"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.v201104110000"
+         unpack="false"/>
+
+   <plugin
+         id="javax.wsdl"
+         download-size="0"
+         install-size="0"
+         version="1.6.2.v201012040545"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.persistence.dbws"
+         download-size="0"
+         install-size="0"
+         version="2.3.2.v20111125-r10461"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.persistence.dbws.builder"
+         download-size="0"
+         install-size="0"
+         version="2.3.2.v20111125-r10461"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jpt.dbws.eclipselink.branding"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.v201103020003"
+         unpack="false"/>
+
+</feature>

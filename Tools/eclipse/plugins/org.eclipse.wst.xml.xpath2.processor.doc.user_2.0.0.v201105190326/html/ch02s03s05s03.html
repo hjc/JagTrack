@@ -1,0 +1,45 @@
+<html><head><META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>Addition and Subtraction:</title><link href="book.css" type="text/css" rel="stylesheet"><link href="book.css" type="text/css" rel="stylesheet"><meta content="DocBook XSL Stylesheets V1.76.1" name="generator"><link rel="home" href="index.html" title="usermanual"><link rel="up" href="ch02s03s05.html" title="Arithmetic Expressions"><link rel="prev" href="ch02s03s05s02.html" title="Multiplication and Division:"><link rel="next" href="ch02s03s06.html" title="Range expressions"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="section" title="Addition and Subtraction:"><div class="titlepage"><div><div><h4 class="title"><a name="Addition_and_Subtraction:"></a>Addition and Subtraction:</h4></div></div></div><p>The operators 
+						<span class="bold"><strong>+</strong></span> and 
+						<span class="italic">'-'</span> perform addition and subtraction of numbers, in the usual way. Once again, if the operands are of different types, XPath 2.0 specifications say one of them is promoted but numeric type promotion is currently unsupported by PsychoPath. The result is of the same type as the operands. 
+					</p><p>Examples of above would be: </p><div class="literallayout"><p>-(5&nbsp;+&nbsp;7)<br>
+</p></div><p> 
+
+						<span class="bold"><strong>result:</strong></span>
+						 
+					</p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>xs:integer: -12</p></li></ol></div><div class="literallayout"><p>-xs:float(&rsquo;1.23&rsquo;)<br>
+</p></div><p> 
+
+						<span class="bold"><strong>result:</strong></span>
+
+					</p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>xs:float: -1.23 
+</p></li></ol></div><div class="literallayout"><p>-xs:double(&rsquo;1.23&rsquo;)<br>
+</p></div><p> 
+
+						<span class="bold"><strong>result:</strong></span>
+
+					</p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>xs:double: -1.23 
+</p></li></ol></div><div class="literallayout"><p>(+5&nbsp;-&nbsp;+7)<br>
+</p></div><p> 
+
+						<span class="bold"><strong>result:</strong></span>
+
+					</p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>xs:integer: -2 
+</p></li></ol></div><div class="literallayout"><p>(1&nbsp;to&nbsp;5&nbsp;div&nbsp;0&nbsp;)<br>
+</p></div><p> 
+
+						<span class="bold"><strong>result:</strong></span> 
+
+					</p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p>FAIL (division by zero!) 
+</p></li></ul></div><div class="literallayout"><p>5*6*10*5*96&nbsp;div&nbsp;20&nbsp;div&nbsp;3&nbsp;div&nbsp;1<br>
+</p></div><p> 
+
+						<span class="bold"><strong>result:</strong></span>
+
+					</p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>xs:decimal: 2400.0 
+</p></li></ol></div><div class="literallayout"><p>31&nbsp;mod&nbsp;15<br>
+</p></div><p> 
+
+						<span class="bold"><strong>result:</strong></span> 
+
+					</p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>xs:integer: 1
+</p></li></ol></div></div></body></html>

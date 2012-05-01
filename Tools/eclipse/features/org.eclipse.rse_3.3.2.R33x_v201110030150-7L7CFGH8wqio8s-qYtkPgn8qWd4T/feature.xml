@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+     Copyright (c) 2005, 2011 IBM Corporation and others.
+     All rights reserved. This program and the accompanying materials
+     are made available under the terms of the Eclipse Public License v1.0
+     which accompanies this distribution, and is available at
+     http://www.eclipse.org/legal/epl-v10.html
+    
+     Contributors:
+         IBM Corporation - initial API and implementation
+ -->
+<feature
+      id="org.eclipse.rse"
+      label="%featureName"
+      version="3.3.2.R33x_v201110030150-7L7CFGH8wqio8s-qYtkPgn8qWd4T"
+      provider-name="%providerName"
+      plugin="org.eclipse.rse"
+      image="eclipse_update_120.jpg">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%tmUpdateSiteName" url="http://download.eclipse.org/tm/updates/3.3"/>
+      <discovery label="%tmUpdateSiteName" url="http://download.eclipse.org/tm/updates/3.3"/>
+   </url>
+
+   <includes
+         id="org.eclipse.rse.core"
+         version="3.3.2.R33x_v201110030150-7a7JFZ4F8Fz0vz03_qRujci-z-Mp"
+         search-location="both"/>
+
+   <includes
+         id="org.eclipse.rse.dstore"
+         version="3.3.1.R33x_v201109141647-7L78FRAD2YR70wUHbQUplQ8LFC"
+         search-location="both"/>
+
+   <includes
+         id="org.eclipse.rse.ftp"
+         version="3.0.301.R33x_v201109141647-782F8O9KC92gz097E9EKF23225"
+         search-location="both"/>
+
+   <includes
+         id="org.eclipse.rse.local"
+         version="2.1.300.v201103142315-7B4FKsBgJ9EE9ICQIFYT"
+         search-location="both"/>
+
+   <includes
+         id="org.eclipse.rse.ssh"
+         version="3.0.301.R33x_v201109141647-7A3F9xAGGB5k0C7KEATN92641"
+         search-location="both"/>
+
+   <includes
+         id="org.eclipse.rse.telnet"
+         version="2.2.200.v201106011538-775F8NAkF7BB7B9NEIPP"
+         search-location="both"/>
+
+   <includes
+         id="org.eclipse.rse.terminals"
+         version="1.1.1.R33x_v201109141647-771Bh9uD7HbBF3u7DNO3293A3752"
+         search-location="both"/>
+
+   <plugin
+         id="org.eclipse.rse"
+         download-size="7"
+         install-size="8"
+         version="3.3.0.v201101042155"
+         unpack="false"/>
+
+</feature>

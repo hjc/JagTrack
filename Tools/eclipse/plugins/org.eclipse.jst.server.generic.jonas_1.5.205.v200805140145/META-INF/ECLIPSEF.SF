@@ -1,0 +1,29 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: ta/Hf4gIgEW4fGKg4xitnzJ+pUQ=
+Created-By: 1.6.0 (IBM Corporation)
+SHA1-Digest-Manifest-Main-Attributes: XPksdQZWdEIjqF+stdZiwwnElVc=
+
+Name: servers/jonas.serverdef
+SHA1-Digest: YG+Nqu/CkpdGWI3DIt5lxUSkArc=
+
+Name: genericjonas.jar
+SHA1-Digest: y2LHUyhv3h3GUKMp1NlYrP0gbHs=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: SAqY+5ITAL0mkdYeijlSRhyIaZk=
+
+Name: icons/obj16/jonas.gif
+SHA1-Digest: E4Hvon/dNYs4pCvJVrvT0MDhDwQ=
+
+Name: plugin.xml
+SHA1-Digest: JoQNLF8BalUY0gwFW+hwp3kw6YI=
+
+Name: about.html
+SHA1-Digest: uiJRfz9x0SZWELI8a5uHYToQRw4=
+
+Name: buildfiles/jonas.xml
+SHA1-Digest: 20HoTRyieoO7ozMr9QyYEk+xz1o=
+
+Name: plugin.properties
+SHA1-Digest: jGFs00Aa/DJK+efS8OTei+L0Ynk=
+

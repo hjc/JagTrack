@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.jst.ws.cxf.feature"
+      label="%featureName"
+      version="1.0.100.v201105171845-7H77DRFAKlZgjHCaHg65uE6I6I"
+      provider-name="%featureProvider"
+      plugin="org.eclipse.jst.ws.cxf.core"
+      image="eclipse_update_120.jpg"
+      
+      >
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <includes
+         id="org.eclipse.jst.ws.jaxws_userdoc.feature"
+         version="1.0.100.v201102200555-3-A78s73533L3D5H5H"/>
+
+   <plugin
+         id="org.jdom"
+         download-size="156"
+         install-size="0"
+         version="1.0.0.v201005080400"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.ws.cxf.consumption.core"
+         download-size="20"
+         install-size="0"
+         version="1.0.0.v201003222311"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.ws.cxf.consumption.ui"
+         download-size="44"
+         install-size="0"
+         version="1.0.0.v201003222311"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.ws.cxf.core"
+         download-size="204"
+         install-size="0"
+         version="1.0.100.v201104022153"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.ws.cxf.creation.core"
+         download-size="52"
+         install-size="0"
+         version="1.0.100.v201104022153"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.ws.cxf.creation.ui"
+         download-size="96"
+         install-size="0"
+         version="1.0.100.v201104022153"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.ws.cxf.ui"
+         download-size="120"
+         install-size="0"
+         version="1.0.0.v201004171919"
+         unpack="false"/>
+
+   <plugin
+         id="javax.wsdl"
+         download-size="0"
+         install-size="0"
+         version="1.6.2.v201012040545"
+         unpack="false"/>
+
+   <plugin
+         id="javax.jws"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.v201005080400"
+         unpack="false"/>
+
+   <plugin
+         id="javax.xml.bind"
+         download-size="0"
+         install-size="0"
+         version="2.1.9.v201005080401"
+         unpack="false"/>
+
+   <plugin
+         id="javax.xml.stream"
+         download-size="0"
+         install-size="0"
+         version="1.0.1.v201004272200"
+         unpack="false"/>
+
+   <plugin
+         id="javax.xml.ws"
+         download-size="0"
+         install-size="0"
+         version="2.1.0.v200902101523"
+         unpack="false"/>
+
+</feature>

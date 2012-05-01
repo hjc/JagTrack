@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+     Copyright (c) 2005, 2011 IBM Corporation and others.
+     All rights reserved. This program and the accompanying materials
+     are made available under the terms of the Eclipse Public License v1.0
+     which accompanies this distribution, and is available at
+     http://www.eclipse.org/legal/epl-v10.html
+    
+     Contributors:
+         IBM Corporation - initial API and implementation
+ -->
+<feature
+      id="org.eclipse.rse.terminals"
+      label="%featureName"
+      version="1.1.1.R33x_v201109141647-771Bh9uD7HbBF3u7DNO3293A3752"
+      provider-name="%providerName"
+      plugin="org.eclipse.rse.terminals.ui"
+      image="eclipse_update_120.jpg">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%tmUpdateSiteName" url="http://download.eclipse.org/tm/updates/3.3"/>
+      <discovery label="%tmUpdateSiteName" url="http://download.eclipse.org/tm/updates/3.3"/>
+   </url>
+
+   <includes
+         id="org.eclipse.tm.terminal"
+         version="3.1.1.R33x_v201106281309-4007S44yaw312218292641"
+         search-location="self"/>
+
+   <requires>
+      <import plugin="org.eclipse.core.expressions"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.ui.views"/>
+      <import plugin="org.eclipse.rse.services" version="3.1.0" match="compatible"/>
+      <import plugin="org.eclipse.rse.services.ssh" version="3.1.0" match="equivalent"/>
+      <import plugin="org.eclipse.rse.core" version="3.0.0" match="compatible"/>
+      <import plugin="org.eclipse.rse.ui" version="3.1.0" match="compatible"/>
+      <import plugin="org.eclipse.rse.connectorservice.ssh" version="2.1.0" match="compatible"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.rse.subsystems.terminals.core"
+         download-size="7"
+         install-size="15"
+         version="1.0.200.v201101042155"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.rse.subsystems.terminals.ssh"
+         download-size="7"
+         install-size="11"
+         version="1.0.100.v201101042155"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.rse.terminals.ui"
+         download-size="24"
+         install-size="51"
+         version="1.1.0.v201101042155"
+         unpack="false"/>
+
+</feature>

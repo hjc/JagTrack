@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.jst.server_ui.feature"
+      label="%featureName"
+      version="3.3.0.v201102200555-7A6FHr9xFcAVCFLZBBJLIR43A"
+      provider-name="%providerName"
+      
+      >
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+
+   <includes
+         id="org.eclipse.jst.server_userdoc.feature"
+         version="3.3.100.v20110303-2-Eo7w3121162A3329"/>
+
+   <includes
+         id="org.eclipse.jst.server_core.feature"
+         version="3.3.0.v201102200555-31FD58s7354495L"/>
+
+   <plugin
+         id="org.eclipse.jst.server.ui"
+         download-size="0"
+         install-size="0"
+         version="1.1.202.v20110419"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.server.generic.ui"
+         download-size="0"
+         install-size="0"
+         version="1.0.505.v20100428"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.server.ui.infopop"
+         download-size="0"
+         install-size="0"
+         version="1.0.400.v200805140145"
+         unpack="false"/>
+
+</feature>

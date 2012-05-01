@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.jst.web_core.feature"
+      label="%featureName"
+      version="3.3.2.v201112072049-7Q7DGLAFE9LeAHGQwz0Yz0Nmuitz01z01sRxi387"
+      provider-name="%providerName"
+      
+      >
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <includes
+         id="org.eclipse.wst.ws_core.feature"
+         version="3.3.1.v201108230355-7L7RFi8FGtGd-thsz0z0rQwh2766"/>
+
+   <plugin
+         id="org.eclipse.jem"
+         download-size="0"
+         install-size="0"
+         version="2.0.501.v201111030500"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jem.beaninfo.vm.common"
+         download-size="0"
+         install-size="0"
+         version="2.0.300.v201004110600"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jem.beaninfo.vm"
+         download-size="0"
+         install-size="0"
+         version="2.0.300.v201004110600"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jem.beaninfo"
+         download-size="0"
+         install-size="0"
+         version="2.0.300.v200905030615"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jem.proxy"
+         download-size="0"
+         install-size="0"
+         version="2.0.400.v201101101900"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jem.workbench"
+         download-size="0"
+         install-size="0"
+         version="2.0.400.v201104251400"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.common.annotations.core"
+         download-size="0"
+         install-size="0"
+         version="1.1.300.v201004141630"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.common.annotations.controller"
+         download-size="0"
+         install-size="0"
+         version="1.1.300.v200908252030"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.common.frameworks"
+         download-size="0"
+         install-size="0"
+         version="1.1.501.v201201190400"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.j2ee.web"
+         download-size="0"
+         install-size="0"
+         version="1.1.502.v201202090300"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.jsp.core"
+         download-size="0"
+         install-size="0"
+         version="1.2.402.v201112071853"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.j2ee.core"
+         download-size="0"
+         install-size="0"
+         version="1.2.102.v201202090300"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.j2ee"
+         download-size="0"
+         install-size="0"
+         version="1.1.503.v201202090300"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.jee"
+         download-size="0"
+         install-size="0"
+         version="1.0.402.v201202021530"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.jee.web"
+         download-size="0"
+         install-size="0"
+         version="1.0.301.v201007070907"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.standard.schemas"
+         download-size="224"
+         install-size="224"
+         version="1.2.0.v201101142102"
+         unpack="false"/>
+
+</feature>

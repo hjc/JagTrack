@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='download cache' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
+  <properties size='2'>
+    <property name='p2.system' value='true'/>
+    <property name='p2.timestamp' value='1329420273454'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='5'>
+    <artifact classifier='binary' id='org.eclipse.rcp_root' version='3.7.2.v20120120-1424-9DB5FmnFq5JCf1UA38R-kz0S0272'>
+      <properties size='1'>
+        <property name='download.size' value='43836'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='org.eclipse.cvs_root' version='1.3.100.v20110520-0800-7B78FHl9VF7BD7KBM4GP9C'>
+      <properties size='1'>
+        <property name='download.size' value='8902'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='org.eclipse.jdt_root' version='3.7.2.v20120120-1414-7z8gFcuFMP7BW5XTz0jLTnz0l9B1'>
+      <properties size='1'>
+        <property name='download.size' value='8902'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='org.eclipse.rcp.configuration_root.gtk.linux.x86' version='1.0.0.M20120208-0800'>
+      <properties size='1'>
+        <property name='download.size' value='187455'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='org.eclipse.platform_root' version='3.7.2.v20120207-1839-9gF7UHPDFxGjd-PqDr2jX_4yKaumkoHTz04_q-q'>
+      <properties size='1'>
+        <property name='download.size' value='43836'/>
+      </properties>
+    </artifact>
+  </artifacts>
+</repository>

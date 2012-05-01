@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.datatools.sqldevtools.schemaobjecteditor.feature"
+      label="%featureName"
+      version="1.9.2.v201109161655-4208375LG5BJ93413"
+      provider-name="%providerName"
+      image="eclipse_update_120.jpg">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %featureCopyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%updateSiteName" url="http://download.eclipse.org/datatools/updates"/>
+      <discovery label="%updateSiteName" url="http://download.eclipse.org/datatools/updates"/>
+   </url>
+
+   <requires>
+      <import feature="org.eclipse.draw2d" version="3.4.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.datatools.sqldevtools.sqlbuilder.feature" version="1.8.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.datatools.sqltools.schemaobjecteditor"
+         download-size="0"
+         install-size="0"
+         version="1.1.0.v200906022302"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.datatools.sqltools.schemaobjecteditor.ui"
+         download-size="0"
+         install-size="0"
+         version="1.1.1.200810071"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.datatools.sqltools.schemaobjecteditor.ui.pages"
+         download-size="0"
+         install-size="0"
+         version="1.1.0.200810071"
+         unpack="false"/>
+
+</feature>

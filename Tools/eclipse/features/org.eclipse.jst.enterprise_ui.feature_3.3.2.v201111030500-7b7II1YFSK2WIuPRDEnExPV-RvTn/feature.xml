@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.jst.enterprise_ui.feature"
+      label="%featureName"
+      version="3.3.2.v201111030500-7b7II1YFSK2WIuPRDEnExPV-RvTn"
+      provider-name="%providerName"
+      plugin="org.eclipse.jst.jee.ui"
+      
+      >
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <includes
+         id="org.eclipse.jst.enterprise_userdoc.feature"
+         version="3.3.100.v201105122000-62FUGBgJ9EA9aEeHRHc"/>
+
+   <includes
+         id="org.eclipse.jst.enterprise_core.feature"
+         version="3.3.2.v201111030500-52FPfAkF7BA8L8K7S98"/>
+
+   <plugin
+         id="org.eclipse.jst.ws"
+         download-size="0"
+         install-size="0"
+         version="1.0.509.v201108250610"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.j2ee.ui"
+         download-size="0"
+         install-size="0"
+         version="1.1.503.v201201190400"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.ws.axis.creation.ui"
+         download-size="0"
+         install-size="0"
+         version="1.0.700.v201104070312"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.ws.axis.consumption.ui"
+         download-size="0"
+         install-size="0"
+         version="1.0.505.v201004211805"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.j2ee.jca.ui"
+         download-size="0"
+         install-size="0"
+         version="1.1.400.v201004150700"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.j2ee.navigator.ui"
+         download-size="0"
+         install-size="0"
+         version="1.1.501.v201107261503"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.j2ee.webservice.ui"
+         download-size="0"
+         install-size="0"
+         version="1.1.500.v201105122000"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.ws.axis.consumption.core"
+         download-size="0"
+         install-size="0"
+         version="1.0.407.v201104071820"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.servlet.ui"
+         download-size="0"
+         install-size="0"
+         version="1.1.502.v201202011054"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.ws.ui"
+         download-size="0"
+         install-size="0"
+         version="1.0.403.v201004211805"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.ws.uddiregistry"
+         download-size="0"
+         install-size="0"
+         version="1.0.500.v201004211805"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.ws.creation.ui"
+         download-size="0"
+         install-size="0"
+         version="1.0.609.v201103082016"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.ws.consumption.ui"
+         download-size="0"
+         install-size="0"
+         version="1.1.402.v201201250306"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.ws.consumption"
+         download-size="0"
+         install-size="0"
+         version="1.0.603.v201202012024"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.j2ee.infopop"
+         download-size="0"
+         install-size="0"
+         version="1.0.300.v200805140415"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.jsp.ui.infopop"
+         download-size="0"
+         install-size="0"
+         version="1.0.200.v201004150328"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.servlet.ui.infopop"
+         download-size="0"
+         install-size="0"
+         version="1.0.500.v201105122000"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.ws.axis.infopop"
+         download-size="0"
+         install-size="0"
+         version="1.0.300.v200805140230"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.ws.consumption.infopop"
+         download-size="0"
+         install-size="0"
+         version="1.0.300.v200805140230"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.ws.infopop"
+         download-size="0"
+         install-size="0"
+         version="1.0.300.v200805140230"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.ws.creation.ejb.ui"
+         download-size="0"
+         install-size="0"
+         version="1.0.201.v201004211805"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.ejb.ui"
+         download-size="0"
+         install-size="0"
+         version="1.1.601.v201201261600"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.j2ee.ejb.annotations.ui"
+         download-size="0"
+         install-size="0"
+         version="1.1.200.v201004290730"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.j2ee.ejb.annotation.model"
+         download-size="0"
+         install-size="0"
+         version="1.1.300.v201003112036"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.j2ee.ejb.annotations.emitter"
+         download-size="0"
+         install-size="0"
+         version="1.1.200.v200909290826"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.j2ee.ejb.annotations.xdoclet"
+         download-size="0"
+         install-size="0"
+         version="1.2.200.v201103302125"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.j2ee.xdoclet.runtime"
+         download-size="0"
+         install-size="0"
+         version="1.1.300.v201004280700"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.jee.ui"
+         download-size="0"
+         install-size="0"
+         version="1.0.401.v201202011107"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.ejb.ui.infopop"
+         download-size="0"
+         install-size="0"
+         version="1.0.300.v2010022311013"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.ws.jaxrs.core"
+         download-size="0"
+         install-size="0"
+         version="1.0.301.v201108240656"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.ws.jaxrs.ui"
+         download-size="0"
+         install-size="0"
+         version="1.0.401.v201108230518"
+         unpack="false"/>
+
+</feature>

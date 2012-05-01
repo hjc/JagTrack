@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright (c) 2007, 2010 David Green and others.
+    All rights reserved. This program and the accompanying materials
+    are made available under the terms of the Eclipse Public License v1.0
+    which accompanies this distribution, and is available at
+    http://www.eclipse.org/legal/epl-v10.html
+    
+    Contributors:
+        David Green - initial API and implementation
+ -->
+<feature
+      id="org.eclipse.mylyn.wikitext_feature"
+      label="%featureName"
+      version="1.5.5.v20120215-0100"
+      provider-name="%providerName"
+      plugin="org.eclipse.mylyn">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="license.html">
+      %license
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.mylyn.commons.ui" version="3.6.1" match="compatible"/>
+      <import feature="org.eclipse.mylyn_feature" version="3.6.0" match="compatible"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.mylyn.wikitext.core"
+         download-size="256"
+         install-size="499"
+         version="1.5.1.v20110720-0100"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.mylyn.wikitext.textile.core"
+         download-size="54"
+         install-size="97"
+         version="1.5.1.v20110720-0100"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.mylyn.wikitext.mediawiki.core"
+         download-size="92"
+         install-size="175"
+         version="1.5.2.v20110830-0100"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.mylyn.wikitext.confluence.core"
+         download-size="51"
+         install-size="91"
+         version="1.5.0.v20110608-1400"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.mylyn.wikitext.tracwiki.core"
+         download-size="51"
+         install-size="87"
+         version="1.5.0.v20110608-1400"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.mylyn.wikitext.twiki.core"
+         download-size="38"
+         install-size="65"
+         version="1.5.0.v20110608-1400"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.mylyn.wikitext.ui"
+         download-size="376"
+         install-size="758"
+         version="1.5.0.v20110608-1400"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.mylyn.wikitext.help.ui"
+         download-size="1211"
+         install-size="1366"
+         version="1.5.1.v20110720-0100"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.mylyn.wikitext.textile.ui"
+         download-size="7"
+         install-size="12"
+         version="1.5.0.v20110608-1400"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.mylyn.wikitext.mediawiki.ui"
+         download-size="6"
+         install-size="9"
+         version="1.5.0.v20110608-1400"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.mylyn.wikitext.confluence.ui"
+         download-size="6"
+         install-size="10"
+         version="1.5.0.v20110608-1400"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.mylyn.wikitext.tracwiki.ui"
+         download-size="5"
+         install-size="8"
+         version="1.5.0.v20110608-1400"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.mylyn.wikitext.twiki.ui"
+         download-size="5"
+         install-size="7"
+         version="1.5.0.v20110608-1400"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.mylyn.wikitext.tasks.ui"
+         download-size="57"
+         install-size="117"
+         version="1.5.0.v20110608-1400"
+         unpack="false"/>
+
+</feature>

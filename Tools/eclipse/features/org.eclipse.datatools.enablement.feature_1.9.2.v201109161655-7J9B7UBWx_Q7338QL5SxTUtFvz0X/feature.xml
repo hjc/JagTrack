@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.datatools.enablement.feature"
+      label="%featureName"
+      version="1.9.2.v201109161655-7J9B7UBWx_Q7338QL5SxTUtFvz0X"
+      provider-name="%providerName"
+      plugin="org.eclipse.datatools.enablement.finfo"
+      image="eclipse_update_120.jpg">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %featureCopyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%updateSiteName" url="http://download.eclipse.org/datatools/updates"/>
+      <discovery label="%updateSiteName" url="http://download.eclipse.org/datatools/updates"/>
+   </url>
+
+   <includes
+         id="org.eclipse.datatools.enablement.apache.derby.feature"
+         version="1.9.2.v201109161655-77788hBmKDQ2MoTTLwdv9ILX"
+         optional="true"/>
+
+   <includes
+         id="org.eclipse.datatools.enablement.hsqldb.feature"
+         version="1.9.2.v201109161655-67D2AqGBM7KfNTHwKO9ILX"
+         optional="true"/>
+
+   <includes
+         id="org.eclipse.datatools.enablement.ibm.feature"
+         version="1.9.2.v201109161655-7F47SFC7sRdmSz0nz0bcci"
+         optional="true"/>
+
+   <includes
+         id="org.eclipse.datatools.enablement.jdbc.feature"
+         version="1.9.2.v201109161655-4-29oB5885QBB8HKW"
+         optional="true"/>
+
+   <includes
+         id="org.eclipse.datatools.enablement.jdt.feature"
+         version="1.9.2.v201109161655-2-07w312218332612"
+         optional="true"/>
+
+   <includes
+         id="org.eclipse.datatools.enablement.msft.feature"
+         version="1.9.2.v201109161655-544AkF7AL7MDMAOCS"
+         optional="true"/>
+
+   <includes
+         id="org.eclipse.datatools.enablement.mysql.feature"
+         version="1.9.2.v201109161655-546AkF7AJ7d8JEOFC"
+         optional="true"/>
+
+   <includes
+         id="org.eclipse.datatools.enablement.oda.feature"
+         version="1.9.2.v201109161655-7A7T7BDZRDKGGZFrGhOd"
+         optional="true"/>
+
+   <includes
+         id="org.eclipse.datatools.enablement.oda.designer.feature"
+         version="1.9.2.v201109161655-3358s7355573G57AI"
+         optional="true"/>
+
+   <includes
+         id="org.eclipse.datatools.enablement.oracle.feature"
+         version="1.9.2.v201109161655-548eAkF7AK7SDKBQ9K"
+         optional="true"/>
+
+   <includes
+         id="org.eclipse.datatools.enablement.postgresql.feature"
+         version="1.9.2.v201109161655-552AkF7AJ9KAT9SFN"
+         optional="true"/>
+
+   <includes
+         id="org.eclipse.datatools.enablement.sap.feature"
+         version="1.9.2.v201109161655-540AkF7AJ7YEJBU7S"
+         optional="true"/>
+
+   <includes
+         id="org.eclipse.datatools.enablement.sybase.feature"
+         version="1.9.2.v201109161655-7E46F9NiNc1QBgyT6T6"
+         optional="true"/>
+
+   <includes
+         id="org.eclipse.datatools.enablement.ingres.feature"
+         version="1.9.2.v201109161655-540AkF78Z7UCRAQDB"
+         optional="true"/>
+
+   <includes
+         id="org.eclipse.datatools.enablement.sqlite.feature"
+         version="1.9.2.v201109161655-541AkF7AI7TCLBQ7L"
+         optional="true"/>
+
+   <requires>
+      <import feature="org.eclipse.datatools.modelbase.feature" version="1.8.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.datatools.connectivity.feature" version="1.8.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.datatools.enablement.finfo"
+         download-size="0"
+         install-size="0"
+         version="1.5.1.v200906161800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.datatools.sqltools.db.derby.ui"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.v200906020900"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.datatools.sqltools.db.generic.ui"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.v200906020900"
+         unpack="false"/>
+
+</feature>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.jst.ws.jaxws_userdoc.feature"
+      label="%featureName"
+      version="1.0.100.v201102200555-3-A78s73533L3D5H5H"
+      provider-name="%featureProvider"
+      
+      >
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.jst.ws.jaxws.doc.user"
+         download-size="0"
+         install-size="0"
+         version="1.0.100.v201009051717"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.ws.cxf.doc.user"
+         download-size="0"
+         install-size="0"
+         version="1.0.100.v201009051717"
+         unpack="false"/>
+
+</feature>

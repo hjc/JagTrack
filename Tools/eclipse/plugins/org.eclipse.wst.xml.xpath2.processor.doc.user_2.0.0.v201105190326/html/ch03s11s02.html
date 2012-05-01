@@ -1,0 +1,8 @@
+<html><head><META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>Functions That Test the Cardinality of Sequences</title><link href="book.css" type="text/css" rel="stylesheet"><link href="book.css" type="text/css" rel="stylesheet"><meta content="DocBook XSL Stylesheets V1.76.1" name="generator"><link rel="home" href="index.html" title="usermanual"><link rel="up" href="ch03s11.html" title="Functions on Nodes"><link rel="prev" href="ch03s11.html" title="Functions on Nodes"><link rel="next" href="ch03s11s03.html" title="Deep-Equal, Aggregate Functions, and Functions that Generate Sequences"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="section" title="Functions That Test the Cardinality of Sequences"><div class="titlepage"><div><div><h3 class="title"><a name="Functions_That_Test_the_Cardinality_of_Sequences"></a>Functions That Test the Cardinality of Sequences</h3></div></div></div><div class="literallayout"><p>one-or-more((1,2,3,4,5))<br>
+</p></div><p>from within a Java application, in order to extract the result from the result sequence, one would have to use this code: </p><p>
+					for (Iterator iter = rs.iterator(); iter.hasNext();) {</p><div class="literallayout"><p>&nbsp;Object&nbsp;item&nbsp;=&nbsp;iter.next();<br>
+&nbsp;int&nbsp;n&nbsp;=&nbsp;((XSInteger)item).intvalue();<br>
+&nbsp;print(n&nbsp;+&nbsp;"&nbsp;");<br>
+</p></div><p>}
+					println(""); 
+					</p><p>in order to get the result of &lsquo;1 2 3 4 5&rsquo;</p></div></body></html>

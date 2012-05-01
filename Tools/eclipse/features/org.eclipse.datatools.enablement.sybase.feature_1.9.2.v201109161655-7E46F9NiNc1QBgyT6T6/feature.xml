@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.datatools.enablement.sybase.feature"
+      label="%featureName"
+      version="1.9.2.v201109161655-7E46F9NiNc1QBgyT6T6"
+      provider-name="%providerName"
+      plugin="org.eclipse.datatools.enablement.sybase"
+      image="eclipse_update_120.jpg">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %featureCopyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%updateSiteName" url="http://download.eclipse.org/datatools/updates"/>
+      <discovery label="%updateSiteName" url="http://download.eclipse.org/datatools/updates"/>
+   </url>
+
+   <requires>
+      <import feature="org.eclipse.datatools.modelbase.feature" version="1.8.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.datatools.connectivity.feature" version="1.8.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.datatools.sqldevtools.feature" version="1.8.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.datatools.enablement.jdbc.feature" version="1.8.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.datatools.enablement.sybase.asa.models"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.v201107221507"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.datatools.enablement.sybase.ase.models"
+         download-size="0"
+         install-size="0"
+         version="1.0.1.v201010140307"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.datatools.enablement.sybase.asa"
+         download-size="0"
+         install-size="0"
+         version="1.0.1.v201107221507"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.datatools.enablement.sybase.ase"
+         download-size="0"
+         install-size="0"
+         version="1.0.2.v201201131122"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.datatools.enablement.sybase.ase.dbdefinition"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.v201107221507"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.datatools.enablement.sybase.asa.dbdefinition"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.v200906161800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.datatools.enablement.sybase.asa.ui"
+         download-size="0"
+         install-size="0"
+         version="1.0.1.v200906111204"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.datatools.enablement.sybase.ase.ui"
+         download-size="0"
+         install-size="0"
+         version="1.0.1.v200906020900"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.datatools.enablement.sybase"
+         download-size="0"
+         install-size="0"
+         version="1.0.1.v201107221507"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.datatools.enablement.sybase.models"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.v201010140307"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.datatools.enablement.sybase.ui"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.v200906090452"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.datatools.enablement.sybase.asa.schemaobjecteditor.examples"
+         download-size="0"
+         install-size="0"
+         version="2.5.0.200810071"
+         unpack="false"/>
+
+</feature>

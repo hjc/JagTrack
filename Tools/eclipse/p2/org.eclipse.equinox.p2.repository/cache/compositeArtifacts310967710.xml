@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?compositeArtifactRepository version='1.0.0'?>
+<repository name='Mylyn for Eclipse Indigo' type='org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository' version='1.0.0'>
+  <properties size='2'>
+    <property name='p2.compressed' value='true'/>
+    <property name='p2.timestamp' value='1335454261000'/>
+  </properties>
+  <children size='1'>
+    <child location='../../drops/3.7.1/v20120425-0100/'/>
+  </children>
+</repository>

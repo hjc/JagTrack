@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.datatools.modelbase.feature"
+      label="%featureName"
+      version="1.9.2.v201109161655-7707CCcNBHIEQJXHUNf"
+      provider-name="%providerName"
+      plugin="org.eclipse.datatools.modelbase.sql"
+      image="eclipse_update_120.jpg">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %featureCopyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%updateSiteName" url="http://download.eclipse.org/datatools/updates"/>
+      <discovery label="%updateSiteName" url="http://download.eclipse.org/datatools/updates"/>
+   </url>
+
+   <requires>
+      <import feature="org.eclipse.emf" version="2.4.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.datatools.modelbase.dbdefinition"
+         download-size="0"
+         install-size="0"
+         version="1.0.2.v201107221519"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.datatools.modelbase.sql.edit"
+         download-size="0"
+         install-size="0"
+         version="1.0.1.v201107221519"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.datatools.modelbase.sql.query"
+         download-size="0"
+         install-size="0"
+         version="1.1.2.v201110151315"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.datatools.modelbase.sql.query.edit"
+         download-size="0"
+         install-size="0"
+         version="1.0.1.v201110151245"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.datatools.modelbase.sql.xml.query"
+         download-size="0"
+         install-size="0"
+         version="1.0.2.v201201131123"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.datatools.modelbase.sql"
+         download-size="0"
+         install-size="0"
+         version="1.0.5.v201110151330"
+         unpack="false"/>
+
+</feature>

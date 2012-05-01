@@ -1,0 +1,197 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: IVXfBVhp4gL378NkvJja213pNIM=
+Created-By: 1.6.0 (IBM Corporation)
+SHA1-Digest-Manifest-Main-Attributes: w4ii4oJOvO3dnaZYhpZWFKEGBVg=
+
+Name: javax/jms/Connection.class
+SHA1-Digest: IvCm7UeRKkImRsB+C1OUVP42250=
+
+Name: javax/jms/Destination.class
+SHA1-Digest: uKCpG+6nwexATY3bnZC2CTdrKEM=
+
+Name: javax/jms/TemporaryTopic.class
+SHA1-Digest: lDI+RqeniQLUFr+xigp2cv0ivzA=
+
+Name: javax/jms/JMSException.class
+SHA1-Digest: iKXatn4zxowyS591O80rYxR90b0=
+
+Name: javax/jms/QueueConnection.class
+SHA1-Digest: hzv8Rgi4EhXKnAFD6AT2mbptyGE=
+
+Name: javax/jms/QueueRequestor.class
+SHA1-Digest: VOJhUfwtOhKlECUmXwfF/OWatYI=
+
+Name: javax/jms/MessageNotReadableException.class
+SHA1-Digest: 3JHVjEDzjMyB3yF1pcRCbPeJ4LA=
+
+Name: javax/jms/ServerSession.class
+SHA1-Digest: hV9pXS1mdDuwvFhfULc3kNdsba0=
+
+Name: javax/jms/XAQueueConnectionFactory.class
+SHA1-Digest: 3tD29pA0fxzHwWWjOOik0IX+6L4=
+
+Name: javax/jms/Session.class
+SHA1-Digest: Wfc7NTRbX18XTPo2DcJc7iUL2pg=
+
+Name: javax/jms/TextMessage.class
+SHA1-Digest: A2OfhS7Nfdgjan2t6nCI71FLXnY=
+
+Name: javax/jms/MessageListener.class
+SHA1-Digest: xZyRwKcVMMsOO5m8dK1OlrZayyI=
+
+Name: javax/jms/TransactionRolledBackException.class
+SHA1-Digest: sk0NeZk5CyANd7reSTapob5Xwp0=
+
+Name: javax/jms/QueueReceiver.class
+SHA1-Digest: RSGmqIvdcKsGqvww/v5XRWY+sWU=
+
+Name: javax/jms/ResourceAllocationException.class
+SHA1-Digest: dLkW2JDwkkUPLC+OfkzFqGPudiE=
+
+Name: javax/jms/ConnectionConsumer.class
+SHA1-Digest: U42l3jX6rvMIPnk2MWyhSLPSLd4=
+
+Name: javax/jms/QueueSender.class
+SHA1-Digest: Sdmnc8l9GJiBWngbUbKXvNSvrxI=
+
+Name: javax/jms/StreamMessage.class
+SHA1-Digest: ft9iFYV++c3Hte4Cl2wAzhzPG94=
+
+Name: javax/jms/DeliveryMode.class
+SHA1-Digest: hqWpcbLFzMY+66ckh4VN019b2/g=
+
+Name: javax/jms/QueueConnectionFactory.class
+SHA1-Digest: h312HuBYokSTy2a+JAZ+wENN9jo=
+
+Name: javax/jms/TopicConnection.class
+SHA1-Digest: o40hvssbU7v3QqD6DwJJJA9i6qo=
+
+Name: javax/jms/JMSSecurityException.class
+SHA1-Digest: SAf0bj/w+dEKLq9eaG0RUV6GwaM=
+
+Name: javax/jms/TransactionInProgressException.class
+SHA1-Digest: baDxnPZHQuxDZ3cKHeBJ829rX9Y=
+
+Name: javax/jms/MessageNotWriteableException.class
+SHA1-Digest: FIY9Y3uQqK9FaXBPGDzQEap/DkY=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: SAqY+5ITAL0mkdYeijlSRhyIaZk=
+
+Name: javax/jms/TopicRequestor.class
+SHA1-Digest: RcE27jYbxg9AycNdH9K1iMEDw1w=
+
+Name: javax/jms/QueueSession.class
+SHA1-Digest: jtPWe3IhTLxoT/nAsZukCaTm+Ek=
+
+Name: javax/jms/XATopicConnectionFactory.class
+SHA1-Digest: P3vObDd8U9wkkHMfXKTJhvhX0jA=
+
+Name: javax/jms/TopicSubscriber.class
+SHA1-Digest: TK/Ivz9RyemFda66QdJId7/FJLk=
+
+Name: javax/jms/ConnectionMetaData.class
+SHA1-Digest: IQ7c68vYK2jwnCVFlAMxBi6m35g=
+
+Name: javax/jms/InvalidClientIDException.class
+SHA1-Digest: Jxebd7DNcjHTBRVLZSdnVQnuLBs=
+
+Name: javax/jms/XAConnectionFactory.class
+SHA1-Digest: uWiZLIn9Kd0wkBSPeGPfmPTyC4g=
+
+Name: javax/jms/XAQueueConnection.class
+SHA1-Digest: OMpaj69VPa+/IZG1+AFJRGCvnsk=
+
+Name: javax/jms/Message.class
+SHA1-Digest: O/jhN6622KnI08xEKnKJfmjboqg=
+
+Name: javax/jms/QueueBrowser.class
+SHA1-Digest: odrpjoNQwXe/Fjp9VEPls80jsTc=
+
+Name: javax/jms/ObjectMessage.class
+SHA1-Digest: YzN33mEPz5cJJy7SW8F1NIzzrI0=
+
+Name: javax/jms/BytesMessage.class
+SHA1-Digest: 6w8P01x/G0Gh+YKB0rgZElBZ+aw=
+
+Name: javax/jms/ConnectionFactory.class
+SHA1-Digest: i6r4hE2oVDU5VDxJBIKSn+FtbHk=
+
+Name: javax/jms/XASession.class
+SHA1-Digest: 2n7Df+LB1DIbWccNh5yi0TWXAUU=
+
+Name: javax/jms/TopicConnectionFactory.class
+SHA1-Digest: 7RKCDs3yH9cVkaJjFJFHxefqZGs=
+
+Name: javax/jms/ServerSessionPool.class
+SHA1-Digest: J5OYUKtVFd34aICvGW8V8YU/SMY=
+
+Name: javax/jms/Queue.class
+SHA1-Digest: hCLDKXmKQYR72s7PiKCTqVMVPt4=
+
+Name: javax/jms/IllegalStateException.class
+SHA1-Digest: bmlBW6feTbOWx1qKZmgfScl9p1M=
+
+Name: copyright.txt
+SHA1-Digest: RAaPISo95g92j0oQnblaE1/vIpE=
+
+Name: javax/jms/TopicSession.class
+SHA1-Digest: vDmT0WuQqteGeT7kyrWXKoro3cg=
+
+Name: javax/jms/package.html
+SHA1-Digest: OaFlo5XgpN2SEcMtw3o0Y5lD/9g=
+
+Name: javax/jms/MessageEOFException.class
+SHA1-Digest: fgARtZDfYQPgfJ6QivhtHQ9yAsE=
+
+Name: plugin.properties
+SHA1-Digest: IyjLbbkHOB2Ki5hHalvM5EO1fWY=
+
+Name: javax/jms/MessageConsumer.class
+SHA1-Digest: 0hQ1+RDnHhLlGetDQ09CyuGOHZw=
+
+Name: javax/jms/XAQueueSession.class
+SHA1-Digest: MGJRRBPMcmdE5mZwt9iM+xrLSfw=
+
+Name: CDDL.html
+SHA1-Digest: a2ZUn9eF8Ue2VOKOtSWgYEy9NMU=
+
+Name: javax/jms/ExceptionListener.class
+SHA1-Digest: SHUmFulJznhl3VzpyU84AsEEN5s=
+
+Name: javax/jms/XATopicConnection.class
+SHA1-Digest: RoE+X+iIHDpW3yl7JGAGTw06tQE=
+
+Name: javax/jms/InvalidSelectorException.class
+SHA1-Digest: 8luWZ5nsFUQirOdbfYNXt05EBak=
+
+Name: javax/jms/Topic.class
+SHA1-Digest: Z6CYFKA4eMvA2oIR2a4LirAPTG4=
+
+Name: javax/jms/TemporaryQueue.class
+SHA1-Digest: 8WyaItnvchPV3rTZgbAuTyROyZg=
+
+Name: javax/jms/XAConnection.class
+SHA1-Digest: PppgoHdqh1KmDVf3aW1phf4w7tw=
+
+Name: javax/jms/InvalidDestinationException.class
+SHA1-Digest: Uz1zWd1wnZYLmys5uvWCRRb/Y8g=
+
+Name: javax/jms/MessageProducer.class
+SHA1-Digest: 6mwD1Z7sylN1cqXy9wxHaL3D5Dc=
+
+Name: about.html
+SHA1-Digest: rVTljV3jA/HNM8mr4rpIGrW7rsc=
+
+Name: javax/jms/MapMessage.class
+SHA1-Digest: WQAn+7n8sWXFtmqcqU4as+CrYqM=
+
+Name: javax/jms/TopicPublisher.class
+SHA1-Digest: r4v6S8WOeaeT8b4hf3n/QXYGij8=
+
+Name: javax/jms/XATopicSession.class
+SHA1-Digest: lsbJ1yimM0w4VzMNu55lUFLks48=
+
+Name: javax/jms/MessageFormatException.class
+SHA1-Digest: /4VMuJTwb9Br8+zExLf3u+8oXfw=
+

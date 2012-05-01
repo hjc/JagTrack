@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Schema file written by PDE -->
+<schema targetNamespace="org.eclipse.wst.xsl.launching.jaxp" xmlns="http://www.w3.org/2001/XMLSchema">
+<annotation>
+      <appinfo>
+         <meta.schema plugin="org.eclipse.wst.xsl.launching.jaxp" id="debugger" name="XSLT Debugger"/>
+      </appinfo>
+      <documentation>
+         Contribute a debugger for a particular JAXP processor type (e.g. Saxon). The extension point primarily defines the classpath and transformer factory to be used when debugging.
+      </documentation>
+   </annotation>
+
+   <element name="extension">
+      <annotation>
+         <appinfo>
+            <meta.element />
+         </appinfo>
+      </annotation>
+      <complexType>
+         <sequence>
+            <element ref="debugger" minOccurs="1" maxOccurs="unbounded"/>
+         </sequence>
+         <attribute name="point" type="string" use="required">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="id" type="string">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="name" type="string">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+               <appinfo>
+                  <meta.attribute translatable="true"/>
+               </appinfo>
+            </annotation>
+         </attribute>
+      </complexType>
+   </element>
+
+   <element name="debugger">
+      <annotation>
+         <documentation>
+            A debugger for a processor type
+         </documentation>
+      </annotation>
+      <complexType>
+         <attribute name="id" type="string" use="required">
+            <annotation>
+               <documentation>
+                  A unique id for this debugger
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="name" type="string" use="required">
+            <annotation>
+               <documentation>
+                  A name to be displayed in the UI
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="classpath" type="string" use="required">
+            <annotation>
+               <documentation>
+                  A &apos;;&apos;-separated classpath required to run the debugger (in addition to that already added by the processor itself).
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="processorTypeId" type="string" use="required">
+            <annotation>
+               <documentation>
+                  The processor type that this debugger works with
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="className" type="string" use="required">
+            <annotation>
+               <documentation>
+                  A fully-qualified class that implement the IXSLDebugger interface. It is easier to extend AbstractXSLDebugger.
+               </documentation>
+               <appinfo>
+                  <meta.attribute kind="java" basedOn=":org.eclipse.wst.xsl.jaxp.debug.debugger.IXSLDebugger"/>
+               </appinfo>
+            </annotation>
+         </attribute>
+         <attribute name="transformerFactoryClass" type="string" use="required">
+            <annotation>
+               <documentation>
+                  The fully-qualified class name of the transformer factory to use for debugging. This must be one of the transformer factories belonging to the processor type.
+               </documentation>
+               <appinfo>
+                  <meta.attribute kind="java" basedOn="javax.xml.transform.TransformerFactory:"/>
+               </appinfo>
+            </annotation>
+         </attribute>
+      </complexType>
+   </element>
+
+
+   <annotation>
+      <appinfo>
+         <meta.section type="examples"/>
+      </appinfo>
+      <documentation>
+         &lt;pre&gt;
+   &lt;extension
+         point=&quot;org.eclipse.wst.xsl.jaxp.launching.debugger&quot;&gt;
+      &lt;debugger
+            className=&quot;org.eclipse.wst.xsl.xalan.debugger.XalanDebugger&quot;
+            classpath=&quot;${eclipse_orbit:org.eclipse.wst.xsl.xalan}&quot;
+            id=&quot;org.eclipse.wst.xsl.xalan.debugger&quot;
+            name=&quot;Xalan 2.5.1 or greater&quot;
+            processorTypeId=&quot;org.eclipse.wst.xsl.xalan.processorType&quot;
+            transformerFactoryClass=&quot;org.apache.xalan.processor.TransformerFactoryImpl&quot;&gt;
+      &lt;/debugger&gt;
+   &lt;/extension&gt;
+&lt;/pre&gt;
+      </documentation>
+   </annotation>
+
+
+
+   <annotation>
+      <appinfo>
+         <meta.section type="copyright"/>
+      </appinfo>
+      <documentation>
+         Copyright (c) 2007 Chase Technology Ltd - &lt;a href=&quot;http://www.chasetechnology.co.uk&quot;&gt;http://www.chasetechnology.co.uk&lt;/a&gt;.&lt;br&gt;
+All rights reserved. This program and the accompanying materials are made 
+available under the terms of the Eclipse Public License v1.0 which accompanies 
+this distribution, and is available at &lt;a
+href=&quot;http://www.eclipse.org/legal/epl-v10.html&quot;&gt;http://www.eclipse.org/legal/epl-v10.html&lt;/a&gt;
+      </documentation>
+   </annotation>
+
+</schema>

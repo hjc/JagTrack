@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+     Copyright (c) 2006, 2011 Wind River Systems, Inc. and others.
+     All rights reserved. This program and the accompanying materials
+     are made available under the terms of the Eclipse Public License v1.0
+     which accompanies this distribution, and is available at
+     http://www.eclipse.org/legal/epl-v10.html
+    
+     Contributors:
+         Wind River - initial API and implementation
+         Uwe Stieber (Wind River) - [282996] [terminal][api] Add "hidden" attribute to terminal connector extension point
+ -->
+<feature
+      id="org.eclipse.tm.terminal.view"
+      label="%featureName"
+      version="2.2.0.v201103142315-31-7w312214253426"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%tmUpdateSiteName" url="http://download.eclipse.org/tm/updates/3.3"/>
+      <discovery label="%tmUpdateSiteName" url="http://download.eclipse.org/tm/updates/3.3"/>
+   </url>
+
+   <requires>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.tm.terminal" version="3.1.0" match="equivalent"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.tm.terminal.view"
+         download-size="48"
+         install-size="48"
+         version="2.2.0.v201103142315"
+         unpack="false"/>
+
+</feature>

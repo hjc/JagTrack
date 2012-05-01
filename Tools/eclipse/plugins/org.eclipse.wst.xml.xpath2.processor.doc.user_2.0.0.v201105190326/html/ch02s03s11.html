@@ -1,0 +1,31 @@
+<html><head><META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>SequenceType Matching Expressions</title><link href="book.css" type="text/css" rel="stylesheet"><link href="book.css" type="text/css" rel="stylesheet"><meta content="DocBook XSL Stylesheets V1.76.1" name="generator"><link rel="home" href="index.html" title="usermanual"><link rel="up" href="ch02s03.html" title="How to use the XPath 2.0 grammar with PsychoPath"><link rel="prev" href="ch02s03s10.html" title="And, Or Expressions"><link rel="next" href="ch03.html" title="How to use XPath 2.0 functions with PsychoPath"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="section" title="SequenceType Matching Expressions"><div class="titlepage"><div><div><h3 class="title"><a name="SequenceType_Matching_Expressions"></a>SequenceType Matching Expressions</h3></div></div></div><p>The rules for SequenceType matching compare the actual type of a value with an expected type. These rules are a subset of the formal rules that match a value with an expected type defined in XQuery 1.0 and XPath 2.0 Formal Semantics 
+					<a class="ulink" href="http://www.w3.org/TR/xpath20/#XQueryFormalSemantics" target="_top">http://www.w3.org/TR/xpath20/#XQueryFormalSemantics</a>, because the Formal Semantics must be able to match a value with any XML Schema type, whereas the rules below only match values against those types expressible by the SequenceType syntax. 
+				</p><p>Some of the rules for SequenceType matching require determining whether a given type name is the same as or derived from an expected type name. The given type name may be "known" (defined in the in-scope schema definitions), or "unknown" (not defined in the in-scope schema definitions). An unknown type name might be encountered, for example, if a source document has been validated using a schema that was not imported into the static context. In this case, an implementation is allowed (but is not required) to provide an implementation-dependent mechanism for determining whether the unknown type name is derived from the expected type name. For example, an implementation might maintain a data dictionary containing information about type hierarchies. consider the following XML document: 
+					&lt;source lang="xml"&gt;&lt;sorbo&gt;</p><div class="literallayout"><p>&nbsp;&lt;is&gt;elite&lt;/is&gt;<br>
+&nbsp;&lt;!--&nbsp;life&nbsp;sux&nbsp;--&gt;<br>
+</p></div><p>&lt;/sorbo&gt;
+					 
+					then, the following are some example of SequenceType matchings: </p><div class="literallayout"><p>element({*})<br>
+</p></div><p> 
+
+					<span class="bold"><strong>result:</strong></span> 
+				</p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>element: sorbo</p></li></ol></div><p>
+					 </p><div class="literallayout"><p>element(elite)<br>
+</p></div><p> 
+
+					<span class="bold"><strong>result:</strong></span> 
+				</p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>Empty results</p></li></ol></div><div class="literallayout"><p>&nbsp;sorbo/comment()<br>
+</p></div><p> 
+
+					<span class="bold"><strong>result:</strong></span> 
+				</p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>comment: life sux</p></li></ol></div><div class="literallayout"><p>&nbsp;data(/sorbo/comment())<br>
+</p></div><p> 
+
+					<span class="bold"><strong>result:</strong></span> 
+				</p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>xs:string: life sux</p></li></ol></div><p>
+					 </p><div class="literallayout"><p>sorbo/node()<br>
+</p></div><p> 
+
+					<span class="italic">'result: '</span> 
+				</p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>text: </p></li><li class="listitem"><p>element: is </p></li><li class="listitem"><p>comment: life sux </p></li><li class="listitem"><p>text:</p></li></ol></div><p>
+</p></div></body></html>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.datatools.connectivity.oda.designer.core.feature"
+      label="%featureName"
+      version="1.9.2.v201109161655-7B7C7HCcNBGRDTHWF_Ri"
+      provider-name="%providerName"
+      plugin="org.eclipse.datatools.connectivity.oda.design.ui"
+      image="eclipse_update_120.jpg">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %featureCopyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%updateSiteName" url="http://download.eclipse.org/datatools/updates"/>
+      <discovery label="%updateSiteName" url="http://download.eclipse.org/datatools/updates"/>
+   </url>
+
+   <requires>
+      <import feature="org.eclipse.emf" version="2.4.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.datatools.connectivity.oda.feature" version="1.8.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.datatools.doc.user" version="1.8.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.datatools.modelbase.feature" version="1.8.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.datatools.connectivity.oda.design.ui"
+         download-size="0"
+         install-size="0"
+         version="3.2.6.v201112151316"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.datatools.connectivity.oda.flatfile.ui"
+         download-size="0"
+         install-size="0"
+         version="3.1.2.v201201101437"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.datatools.connectivity.ui.dse"
+         download-size="0"
+         install-size="0"
+         version="1.1.4.v201107221459"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.datatools.connectivity.ui"
+         download-size="0"
+         install-size="0"
+         version="1.2.2.v201111190813"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.datatools.connectivity.sqm.core"
+         download-size="0"
+         install-size="0"
+         version="1.2.4.v201201131116"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.datatools.help"
+         download-size="0"
+         install-size="0"
+         version="1.5.0.v200906020553"
+         unpack="false"/>
+
+</feature>

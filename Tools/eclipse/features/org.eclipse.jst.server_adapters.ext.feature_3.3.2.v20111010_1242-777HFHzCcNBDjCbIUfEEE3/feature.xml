@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.jst.server_adapters.ext.feature"
+      label="%featureName"
+      version="3.3.2.v20111010_1242-777HFHzCcNBDjCbIUfEEE3"
+      provider-name="%providerName"
+      
+      >
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.jst.server.tomcat.core"
+         download-size="0"
+         install-size="0"
+         version="1.1.301.v20111010_1242"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.server.tomcat.ui"
+         download-size="0"
+         install-size="0"
+         version="1.1.200.v20100418"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.server.websphere.core"
+         download-size="0"
+         install-size="0"
+         version="1.0.302.v20080620"/>
+
+   <plugin
+         id="org.eclipse.jst.server.generic.jboss"
+         download-size="0"
+         install-size="0"
+         version="1.6.1.v200904151730"/>
+
+   <plugin
+         id="org.eclipse.jst.server.generic.jonas"
+         download-size="0"
+         install-size="0"
+         version="1.5.205.v200805140145"/>
+
+   <plugin
+         id="org.eclipse.jst.server.generic.oc4j"
+         download-size="0"
+         install-size="0"
+         version="1.5.206.v20090812"/>
+
+</feature>

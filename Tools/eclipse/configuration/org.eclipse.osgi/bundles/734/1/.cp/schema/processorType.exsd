@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Schema file written by PDE -->
+<schema targetNamespace="org.eclipse.wst.xsl.launching.jaxp" xmlns="http://www.w3.org/2001/XMLSchema">
+<annotation>
+      <appinfo>
+         <meta.schema plugin="org.eclipse.wst.xsl.launching.jaxp" id="processorType" name="XSLT Processor Type"/>
+      </appinfo>
+      <documentation>
+         Contribute a Java XSLT processor type (e.g. Xalan, Saxon). The processor type defines which JAXP attributes and output properies are supported, and also the transformer factory classes it contains.
+      </documentation>
+   </annotation>
+
+   <element name="extension">
+      <annotation>
+         <appinfo>
+            <meta.element />
+         </appinfo>
+      </annotation>
+      <complexType>
+         <sequence>
+            <element ref="processorType" minOccurs="1" maxOccurs="unbounded"/>
+         </sequence>
+         <attribute name="point" type="string" use="required">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="id" type="string">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="name" type="string">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+               <appinfo>
+                  <meta.attribute translatable="true"/>
+               </appinfo>
+            </annotation>
+         </attribute>
+      </complexType>
+   </element>
+
+   <element name="processorType">
+      <annotation>
+         <appinfo>
+            <meta.element labelAttribute="label"/>
+         </appinfo>
+      </annotation>
+      <complexType>
+         <sequence>
+            <element ref="transformerFactory" minOccurs="0" maxOccurs="unbounded"/>
+         </sequence>
+         <attribute name="id" type="string" use="required">
+            <annotation>
+               <documentation>
+                  Unique id for the processor type
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="label" type="string" use="required">
+            <annotation>
+               <documentation>
+                  Name for display in the UI
+               </documentation>
+               <appinfo>
+                  <meta.attribute translatable="true"/>
+               </appinfo>
+            </annotation>
+         </attribute>
+         <attribute name="outputProperties" type="string">
+            <annotation>
+               <documentation>
+                  Location of a properties file containing the list of the processors output properties. Must be a path relative to the root of the bundle.
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="attributeProperties" type="string">
+            <annotation>
+               <documentation>
+                  Location of a properties file containing the list of the attributes supported by this processor. Must be a path relative to the root of the bundle.
+               </documentation>
+            </annotation>
+         </attribute>
+      </complexType>
+   </element>
+
+   <element name="transformerFactory">
+      <annotation>
+         <documentation>
+            A TransformerFactory for this type
+         </documentation>
+      </annotation>
+      <complexType>
+         <attribute name="factoryClass" type="string" use="required">
+            <annotation>
+               <documentation>
+                  The fully-qualified transformer factory class
+               </documentation>
+               <appinfo>
+                  <meta.attribute kind="java" basedOn="javax.xml.transform.TransformerFactory:"/>
+               </appinfo>
+            </annotation>
+         </attribute>
+         <attribute name="name" type="string" use="required">
+            <annotation>
+               <documentation>
+                  A name for this transformer factory to be displayed in the UI
+               </documentation>
+               <appinfo>
+                  <meta.attribute translatable="true"/>
+               </appinfo>
+            </annotation>
+         </attribute>
+      </complexType>
+   </element>
+
+
+   <annotation>
+      <appinfo>
+         <meta.section type="examples"/>
+      </appinfo>
+      <documentation>
+         &lt;pre&gt;
+   &lt;extension
+         point=&quot;org.eclipse.wst.xsl.jaxp.launching.processorType&quot;&gt;
+      &lt;processorType
+            attributeProperties=&quot;XalanAttributes.properties&quot;
+            id=&quot;org.eclipse.wst.xsl.xalan.processorType&quot;
+            label=&quot;%processorType.label.0&quot;
+            outputProperties=&quot;XalanOutputProperties.properties&quot;&gt;
+         &lt;transformerFactory
+               factoryClass=&quot;org.apache.xalan.processor.TransformerFactoryImpl&quot;
+               name=&quot;Interpretive&quot;&gt;
+         &lt;/transformerFactory&gt;
+         &lt;transformerFactory
+               factoryClass=&quot;org.apache.xalan.xsltc.trax.TransformerFactoryImpl&quot;
+               name=&quot;Compiling&quot;&gt;
+         &lt;/transformerFactory&gt;
+      &lt;/processorType&gt;
+   &lt;/extension&gt;
+&lt;/pre&gt;
+      </documentation>
+   </annotation>
+
+
+
+   <annotation>
+      <appinfo>
+         <meta.section type="copyright"/>
+      </appinfo>
+      <documentation>
+         Copyright (c) 2007 Chase Technology Ltd - &lt;a href=&quot;http://www.chasetechnology.co.uk&quot;&gt;http://www.chasetechnology.co.uk&lt;/a&gt;.&lt;br&gt;
+All rights reserved. This program and the accompanying materials are made 
+available under the terms of the Eclipse Public License v1.0 which accompanies 
+this distribution, and is available at &lt;a
+href=&quot;http://www.eclipse.org/legal/epl-v10.html&quot;&gt;http://www.eclipse.org/legal/epl-v10.html&lt;/a&gt;
+      </documentation>
+   </annotation>
+
+</schema>

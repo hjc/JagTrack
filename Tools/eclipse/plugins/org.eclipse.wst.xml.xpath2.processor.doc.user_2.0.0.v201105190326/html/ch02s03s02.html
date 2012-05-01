@@ -1,0 +1,22 @@
+<html><head><META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>Path expressions</title><link href="book.css" type="text/css" rel="stylesheet"><link href="book.css" type="text/css" rel="stylesheet"><meta content="DocBook XSL Stylesheets V1.76.1" name="generator"><link rel="home" href="index.html" title="usermanual"><link rel="up" href="ch02s03.html" title="How to use the XPath 2.0 grammar with PsychoPath"><link rel="prev" href="ch02s03.html" title="How to use the XPath 2.0 grammar with PsychoPath"><link rel="next" href="ch02s03s03.html" title="Axis steps"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="section" title="Path expressions"><div class="titlepage"><div><div><h3 class="title"><a name="Path_expressions"></a>Path expressions</h3></div></div></div><p>A path expression is a sequence of steps separated by the 
+					<span class="bold"><strong>/''' or '''//</strong></span> operator. For example, 
+					<span class="bold"><strong>../@desc</strong></span> selects the desc attribute of the parent of the context node. 
+				</p><p>In XPath 2.0, path expressions have been generalized so that any expression can be used as an operand of 
+					<span class="bold"><strong>/</strong></span>, (both on the left and the right), as long as its value is a sequence of nodes. For example, it is possible to use a union expression (in parentheses) or a call to the id() function. 
+				</p><p>In practice, it only makes sense to use expressions on the right of 
+					<span class="bold"><strong>"/"</strong></span> if they depend on the context item. It is legal to write $x/$y provided both $x and $y are sequences of nodes, but the result is exactly the same as writing 
+					<span class="bold"><strong>
+						<span class="italic">./$y</span>
+					</strong></span>. 
+				</p><p>Note that the expressions 
+					<span class="bold"><strong>./$X</strong></span> or 
+					<span class="bold"><strong>$X/.</strong></span> can be used to remove duplicates from 
+					<span class="bold"><strong>$X</strong></span> and sort the results into document order. 
+					 
+				</p><p>The operator 
+					<span class="bold"><strong>//</strong></span> is an abbreviation for 
+					<span class="bold"><strong>/descendant-or-self::node()</strong></span>. An expression of the form 
+					<span class="bold"><strong>/E</strong></span> is shorthand for 
+					<span class="bold"><strong>root(.)/E</strong></span>, and the expression 
+					<span class="bold"><strong>/''' on its own is shorthand for '''root(.)</strong></span>. 
+				</p></div></body></html>

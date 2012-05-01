@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.jpt.jaxb.feature"
+      label="%featureName"
+      version="1.0.2.v201111103010-508cAkF7BC8GBGA78A"
+      provider-name="%providerName"
+      plugin="org.eclipse.jpt.jaxb.branding"
+      
+      >
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.jpt.common.feature" version="1.0.0"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.jpt.jaxb.core"
+         download-size="0"
+         install-size="0"
+         version="1.0.2.v201111103010"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jpt.jaxb.core.schemagen"
+         download-size="0"
+         install-size="0"
+         version="1.0.100.v201104110000"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jpt.jaxb.ui"
+         download-size="0"
+         install-size="0"
+         version="1.1.2.v201201260000"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jpt.jaxb.branding"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.v201103020003"
+         unpack="false"/>
+
+</feature>

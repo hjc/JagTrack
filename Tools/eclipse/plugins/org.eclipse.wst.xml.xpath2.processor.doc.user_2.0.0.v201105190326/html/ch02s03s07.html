@@ -1,0 +1,94 @@
+<html><head><META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>Comparisons</title><link href="book.css" type="text/css" rel="stylesheet"><link href="book.css" type="text/css" rel="stylesheet"><meta content="DocBook XSL Stylesheets V1.76.1" name="generator"><link rel="home" href="index.html" title="usermanual"><link rel="up" href="ch02s03.html" title="How to use the XPath 2.0 grammar with PsychoPath"><link rel="prev" href="ch02s03s06.html" title="Range expressions"><link rel="next" href="ch02s03s08.html" title="Conditional Expressions"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="section" title="Comparisons"><div class="titlepage"><div><div><h3 class="title"><a name="Comparisons"></a>Comparisons</h3></div></div></div><p>The simplest comparison operators are 
+					<span class="bold"><strong>eq</strong></span>, 
+					<span class="bold"><strong>ne</strong></span>, 
+					<span class="bold"><strong>lt</strong></span>, 
+					<span class="bold"><strong>le</strong></span>, 
+					<span class="bold"><strong>gt</strong></span>, 
+					<span class="bold"><strong>ge</strong></span>. These compare two atomic values of the same type, for example two integers, two dates, or two strings. (Collation hasn&rsquo;t been implemented in current version of PsychoPath). If the operands are not atomic values, an error is raised. 
+				</p><p>The operators 
+					<span class="bold"><strong>=''',&nbsp;</strong></span>!='
+					<span class="italic">, '</span>&lt;='
+					<span class="italic">, '</span>&gt;
+					<span class="bold"><strong>, '''&lt;</strong></span>, and 
+					<span class="bold"><strong>&gt;=</strong></span> can compare arbitrary sequences. The result is true if any pair of items from the two sequences has the specified relationship, for example 
+					<span class="italic">$A = $B</span> is true if there is an item in 
+					<span class="italic">$A</span> that is equal to some item in 
+					<span class="italic">$B</span>. 
+				</p><p>The operators 
+					<span class="bold"><strong>is</strong></span> and 
+					<span class="bold"><strong>isnot</strong></span> test whether the operands represent the same (identical) node. For example, 
+					<span class="italic">title
+						<a class="ulink" href="1" target="_top">1</a> is *
+						<a class="ulink" href="@note" target="_top">@note</a>
+						<a class="ulink" href="1" target="_top">1</a>
+					</span> is true if the first title child is the first child element that has a 
+					<span class="italic">@note</span> attribute. If either operand is an empty sequence the result is an empty sequence (which will usually be treated as false). 
+				</p><p>The operators 
+					<span class="bold"><strong>&lt;&lt;</strong></span> and 
+					<span class="bold"><strong>&gt;&gt;</strong></span> test whether one node precedes or follows another in document order. Consider this XML document (XPexample.xml): 
+					&lt;source lang="xml"&gt;
+				</p><div class="literallayout"><p>&lt;book&gt;<br>
+&nbsp;&lt;title&gt;Being&nbsp;a&nbsp;Dog&nbsp;Is&nbsp;a&nbsp;Full-Time&nbsp;Job&lt;/title&gt;<br>
+&nbsp;&lt;author&gt;Charles&nbsp;M.&nbsp;Schulz&lt;/author&gt;<br>
+&nbsp;&lt;character&gt;<br>
+&nbsp;&nbsp;&nbsp;&lt;name&gt;Snoopy&lt;/name&gt;<br>
+&nbsp;&nbsp;&nbsp;&lt;friend-of&gt;Peppermint&nbsp;Patty&lt;/friend-of&gt;<br>
+&nbsp;&nbsp;&nbsp;&lt;since&gt;1950-10-04&lt;/since&gt;<br>
+&nbsp;&nbsp;&nbsp;&lt;age&gt;2&lt;/age&gt;<br>
+&nbsp;&nbsp;&nbsp;&lt;qualification&gt;extroverted&nbsp;beagle&lt;/qualification&gt;<br>
+&nbsp;&lt;/character&gt;<br>
+&nbsp;&lt;character&gt;<br>
+&nbsp;&nbsp;&nbsp;&lt;name&gt;Peppermint&nbsp;Patty&lt;/name&gt;<br>
+&nbsp;&nbsp;&nbsp;&lt;since&gt;1966-08-22&gt;/since&gt;<br>
+&nbsp;&nbsp;&nbsp;&lt;age&gt;4&lt;/age&gt;<br>
+&nbsp;&nbsp;&nbsp;&lt;qualification&gt;bold,&nbsp;brash&nbsp;and&nbsp;tomboyish&lt;/qualification&gt;<br>
+&nbsp;&lt;/character&gt;<br>
+&lt;/book&gt;<br>
+</p></div><p> </p><p>This file conforms to the following Schema (XPexample.xsd):</p><p>&lt;?xml version="1.0" encoding="UTF-8"?&gt;</p><div class="literallayout"><p>&lt;xs:schema&nbsp;xmlns:xs="http://www.w3.org/2001/XMLSchema"<br>
+&nbsp;elementFormDefault="qualified"&gt;<br>
+</p></div><div class="literallayout"><p>&nbsp;&lt;xs:element&nbsp;name="book"&gt;<br>
+&nbsp;&nbsp;&nbsp;&lt;xs:complexType&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;xs:sequence&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;xs:element&nbsp;ref="title"&nbsp;/&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;xs:element&nbsp;ref="author"&nbsp;/&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;xs:element&nbsp;maxOccurs="unbounded"&nbsp;ref="character"&nbsp;/&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/xs:sequence&gt;<br>
+&nbsp;&nbsp;&nbsp;&lt;/xs:complexType&gt;<br>
+&nbsp;&lt;/xs:element&gt;<br>
+</p></div><div class="literallayout"><p>&nbsp;&lt;xs:element&nbsp;name="title"&nbsp;type="characterName"&gt;&lt;/xs:element&gt;<br>
+</p></div><div class="literallayout"><p>&nbsp;&lt;xs:element&nbsp;name="author"&nbsp;type="characterName"&gt;&lt;/xs:element&gt;<br>
+</p></div><div class="literallayout"><p>&nbsp;&lt;xs:element&nbsp;name="character"&gt;<br>
+&nbsp;&nbsp;&nbsp;&lt;xs:complexType&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;xs:sequence&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;xs:element&nbsp;ref="name"&nbsp;/&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;xs:element&nbsp;ref="friend-of"&nbsp;minOccurs="0"&nbsp;/&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;xs:element&nbsp;ref="since"&nbsp;/&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;xs:element&nbsp;ref="age"&nbsp;/&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;xs:element&nbsp;ref="qualification"&nbsp;/&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/xs:sequence&gt;<br>
+&nbsp;&nbsp;&nbsp;&lt;/xs:complexType&gt;<br>
+&nbsp;&lt;/xs:element&gt;<br>
+&nbsp;&lt;xs:element&nbsp;name="name"&nbsp;type="characterName"&nbsp;/&gt;<br>
+&nbsp;&lt;xs:element&nbsp;name="friend-of"&nbsp;type="characterName"&nbsp;/&gt;<br>
+&nbsp;&lt;xs:element&nbsp;name="since"&nbsp;type="xs:date"&nbsp;/&gt;<br>
+&nbsp;&lt;xs:element&nbsp;name="age"&nbsp;type="xs:nonNegativeInteger"&nbsp;/&gt;<br>
+&nbsp;&lt;xs:element&nbsp;name="qualification"&nbsp;type="xs:string"&nbsp;/&gt;<br>
+</p></div><div class="literallayout"><p>&nbsp;&lt;xs:simpleType&nbsp;name="characterName"&gt;<br>
+&nbsp;&nbsp;&nbsp;&lt;xs:restriction&nbsp;base="xs:normalizedString"&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;xs:minLength&nbsp;value="1"/&gt;<br>
+&nbsp;&nbsp;&nbsp;&lt;/xs:restriction&gt;<br>
+&nbsp;&lt;/xs:simpleType&gt;<br>
+&lt;/xs:schema&gt;<br>
+</p></div><p> </p><p>
+					<span class="bold"><strong>
+						<span class="italic">Examples:</span>
+					</strong></span> 
+				</p><div class="literallayout"><p>book/character[name="Snoopy"]&nbsp;&amp;lt;&amp;lt;&nbsp;book/character[name="Peppermint&nbsp;Patty"]&nbsp;<br>
+</p></div><p> 
+
+					<span class="bold"><strong>result:</strong></span> 
+				</p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>xs:boolean: true</p></li></ol></div><div class="literallayout"><p>book/character[name="Peppermint&nbsp;Patty"]&nbsp;&amp;lt;&amp;lt;&nbsp;book/character[name="Snoopy"]<br>
+</p></div><p> 
+
+					<span class="bold"><strong>result:</strong></span> 
+				</p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>xs:boolean: false</p></li></ol></div></div></body></html>

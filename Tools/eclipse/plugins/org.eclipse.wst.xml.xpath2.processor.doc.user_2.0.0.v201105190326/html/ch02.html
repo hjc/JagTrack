@@ -1,0 +1,32 @@
+<html><head><META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>How to feed Psychopath XPath expressions</title><link href="book.css" type="text/css" rel="stylesheet"><link href="book.css" type="text/css" rel="stylesheet"><meta content="DocBook XSL Stylesheets V1.76.1" name="generator"><link rel="home" href="index.html" title="usermanual"><link rel="up" href="index.html" title="usermanual"><link rel="prev" href="ch01.html" title="Introduction"><link rel="next" href="ch02s02.html" title="Schema Aware"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="chapter" title="How to feed Psychopath XPath expressions"><div class="titlepage"><div><div><h2 class="title"><a name="How_to_feed_Psychopath_XPath_expressions"></a>How to feed Psychopath XPath expressions</h2></div></div></div><div class="toc"><p><b>Table of Contents</b></p><ul><li><span class="section"><a href="ch02.html#Non-Schema_Aware">Non-Schema Aware</a></span></li><li><span class="section"><a href="ch02s02.html">Schema Aware</a></span></li><li><span class="section"><a href="ch02s03.html">How to use the XPath 2.0 grammar with PsychoPath</a></span><ul><li><span class="section"><a href="ch02s03.html#Constants">Constants</a></span></li><li><span class="section"><a href="ch02s03s02.html">Path expressions</a></span></li><li><span class="section"><a href="ch02s03s03.html">Axis steps</a></span></li><li><span class="section"><a href="ch02s03s04.html">Set difference, intersection and Union</a></span></li><li><span class="section"><a href="ch02s03s05.html">Arithmetic Expressions</a></span><ul><li><span class="section"><a href="ch02s03s05.html#Unary">Unary</a></span></li><li><span class="section"><a href="ch02s03s05s02.html">Multiplication and Division:</a></span></li><li><span class="section"><a href="ch02s03s05s03.html">Addition and Subtraction:</a></span></li></ul></li><li><span class="section"><a href="ch02s03s06.html">Range expressions</a></span></li><li><span class="section"><a href="ch02s03s07.html">Comparisons</a></span></li><li><span class="section"><a href="ch02s03s08.html">Conditional Expressions</a></span></li><li><span class="section"><a href="ch02s03s09.html">Quantified Expressions</a></span></li><li><span class="section"><a href="ch02s03s10.html">And, Or Expressions</a></span></li><li><span class="section"><a href="ch02s03s11.html">SequenceType Matching Expressions</a></span></li></ul></li></ul></div><p>Since PsychoPath has been implemented as an external library and not as a complete program, in order to use it, it needs to be accessed from inside another program. To process XPath 2.0 expressions using PsychoPath from another programs one needs to go through the following process: </p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>Load the XML document </p></li><li class="listitem"><p>Optionally validate the XML document </p></li><li class="listitem"><p>Initialize static and dynamic context in respect to the document root </p></li><li class="listitem"><p>Parse the XPath 2.0 expression </p></li><li class="listitem"><p>Statically verify the XPath 2.0 expression </p></li><li class="listitem"><p>Evaluate the XPath 2.0 expression in respect to the XML document</p></li></ol></div><p>To give a better idea of how this process actually works, we&rsquo;ll go through an example of processing and evaluating the string expression &ldquo;Hello World!&rdquo;. In this example the XML document that we load is called &ldquo;XPexample.xml&rdquo;. </p><p>All 5 main steps have been explained in detail in 
+			<a class="ulink" href="/wiki/PsychoPathXPathProcessor/UserInterface" target="_top">User Interface</a>, so below is just a brief code summary:
+			 
+		</p><div class="section" title="Non-Schema Aware"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="Non-Schema_Aware"></a>Non-Schema Aware</h2></div></div></div><div class="literallayout"><p>/**<br>
+*&nbsp;First&nbsp;load&nbsp;and&nbsp;optionally&nbsp;validate&nbsp;the&nbsp;XML&nbsp;document&nbsp;<br>
+*/<br>
+</p></div><div class="literallayout"><p>//&nbsp;Create&nbsp;an&nbsp;InputStream&nbsp;from&nbsp;the&nbsp;XML&nbsp;document<br>
+InputStream&nbsp;is&nbsp;=&nbsp;new&nbsp;FileInputStream("XPexample.xml");<br>
+</p></div><div class="literallayout"><p>//&nbsp;Initializing&nbsp;the&nbsp;Xerces&nbsp;DOM&nbsp;loader.<br>
+DOMLoader&nbsp;loader&nbsp;=&nbsp;new&nbsp;XercesLoader();<br>
+</p></div><div class="literallayout"><p>//&nbsp;Optionally&nbsp;set&nbsp;flag&nbsp;to&nbsp;validate&nbsp;XML&nbsp;document<br>
+//&nbsp;loader.set_validating(validate);<br>
+//&nbsp;Loads&nbsp;the&nbsp;XML&nbsp;document&nbsp;and&nbsp;stores&nbsp;the&nbsp;DOM&nbsp;root<br>
+Document&nbsp;doc&nbsp;=&nbsp;loader.load(is);<br>
+</p></div><div class="literallayout"><p>//&nbsp;Initialising&nbsp;the&nbsp;StaticContext&nbsp;using&nbsp;a&nbsp;builder&nbsp;with&nbsp;suitable&nbsp;defaults.<br>
+StaticContextBuilder&nbsp;scb&nbsp;=&nbsp;new&nbsp;StaticContextBuilder();<br>
+</p></div><div class="literallayout"><p>/**<br>
+&nbsp;*&nbsp;Parsing&nbsp;the&nbsp;XPath&nbsp;2.0&nbsp;expression&nbsp;into&nbsp;an&nbsp;executable&nbsp;expression,&nbsp;including<br>
+&nbsp;*&nbsp;a&nbsp;static&nbsp;check&nbsp;and&nbsp;verification.<br>
+&nbsp;*/<br>
+String&nbsp;xpathText&nbsp;=&nbsp;"string-join(//character/name,&nbsp;',&nbsp;')";<br>
+XPath2Expression&nbsp;expr&nbsp;=&nbsp;new&nbsp;Engine().parseExpression(xpathText,&nbsp;scb);<br>
+</p></div><div class="literallayout"><p>//&nbsp;Evaluates&nbsp;the&nbsp;XPath&nbsp;2.0&nbsp;expression,&nbsp;storing&nbsp;the&nbsp;result<br>
+//&nbsp;in&nbsp;the&nbsp;ResultSequence<br>
+ResultSequence&nbsp;rs&nbsp;=&nbsp;expr.evaluate(new&nbsp;DynamicContextBuilder(scb),<br>
+	new&nbsp;Object[]&nbsp;{&nbsp;doc&nbsp;});<br>
+</p></div><div class="literallayout"><p>for&nbsp;(int&nbsp;i&nbsp;=&nbsp;0;&nbsp;i&nbsp;&lt;&nbsp;rs.size();&nbsp;++i)&nbsp;{<br>
+	System.out.println("#"&nbsp;+&nbsp;i&nbsp;+&nbsp;":&nbsp;"&nbsp;+&nbsp;rs.value(i));<br>
+}<br>
+</p></div><p>
+
+</p></div></div></body></html>

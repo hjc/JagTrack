@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.jst.web_userdoc.feature"
+      label="%featureName"
+      version="3.3.1.v201108102009-2107w31211938"
+      provider-name="%providerName"
+      
+      >
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.jst.jsf.doc.user"
+         download-size="0"
+         install-size="0"
+         version="1.2.1.v20100827"
+         unpack="false"/>
+
+</feature>

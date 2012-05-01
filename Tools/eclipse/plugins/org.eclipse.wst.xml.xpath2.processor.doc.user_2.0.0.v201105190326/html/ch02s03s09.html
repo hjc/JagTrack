@@ -1,0 +1,7 @@
+<html><head><META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>Quantified Expressions</title><link href="book.css" type="text/css" rel="stylesheet"><link href="book.css" type="text/css" rel="stylesheet"><meta content="DocBook XSL Stylesheets V1.76.1" name="generator"><link rel="home" href="index.html" title="usermanual"><link rel="up" href="ch02s03.html" title="How to use the XPath 2.0 grammar with PsychoPath"><link rel="prev" href="ch02s03s08.html" title="Conditional Expressions"><link rel="next" href="ch02s03s10.html" title="And, Or Expressions"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="section" title="Quantified Expressions"><div class="titlepage"><div><div><h3 class="title"><a name="Quantified_Expressions"></a>Quantified Expressions</h3></div></div></div><p>The expression 
+					<span class="italic">some $x in E1 satisfies E2</span> returns true if there is an item in the sequence E1 for which the effective boolean value of E2 is true. Note that E2 must use the range variable 
+					<span class="italic">$x</span> to refer to the item being tested; it does not become the context item. For example, 
+					<span class="italic">some $x in @* satisfies $x eq ""</span> is true if the context item is an element that has at least one zero-length attribute value. 
+				</p><p>Similarly, the expression 
+					<span class="italic">every $x in E1 satisfies E2</span> returns true if every item in the sequence given by E1 satisfies the condition. 
+				</p></div></body></html>

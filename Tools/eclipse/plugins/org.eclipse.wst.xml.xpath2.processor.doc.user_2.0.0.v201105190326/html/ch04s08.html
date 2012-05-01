@@ -1,0 +1,9 @@
+<html><head><META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>Union, Intersection and Except</title><link href="book.css" type="text/css" rel="stylesheet"><link href="book.css" type="text/css" rel="stylesheet"><meta content="DocBook XSL Stylesheets V1.76.1" name="generator"><link rel="home" href="index.html" title="usermanual"><link rel="up" href="ch04.html" title="How to use XPath 2.0 operators with PsychoPath"><link rel="prev" href="ch04s07.html" title="Operators Related to QNames And Nodes"><link rel="next" href="ch04s09.html" title="Operators that Generate Sequences"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="section" title="Union, Intersection and Except"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="Union.2C_Intersection_and_Except"></a>Union, Intersection and Except</h2></div></div></div><div class="literallayout"><p>union($seq2,&nbsp;$seq3)<br>
+</p></div><p>from within a Java application, in order to extract the result from the result sequence, one would have to use this code: </p><p>
+				for (Iterator iter = rs.iterator(); iter.hasNext();) {</p><div class="literallayout"><p>Object&nbsp;item&nbsp;=&nbsp;iter.next();<br>
+String&nbsp;n&nbsp;=&nbsp;((XSString)item).stringvalue();<br>
+print(n&nbsp;+&nbsp;",&nbsp;");<br>
+</p></div><p>}
+				println(""); 
+				</p><p>which returns the sequence consisting of $item1, $item2, $item3. </p><p>
+</p></div></body></html>

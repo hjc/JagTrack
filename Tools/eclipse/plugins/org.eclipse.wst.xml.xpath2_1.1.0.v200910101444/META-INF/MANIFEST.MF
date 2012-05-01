@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Bundle-Vendor: %Bundle-Vendor.0
+Bundle-Localization: plugin
+Bundle-Name: %Bundle-Name.0
+Bundle-SymbolicName: org.eclipse.wst.xml.xpath2
+Eclipse-SourceReferences: scm:cvs:pserver:dev.eclipse.org:/cvsroot/web
+ tools:sourceediting/plugins/org.eclipse.wst.xml.xpath2;tag=v200910101
+ 444
+Bundle-Version: 1.1.0.v200910101444
+Bundle-ManifestVersion: 2
+
+Name: about.ini
+SHA1-Digest: na8Ez9dYV383wvKtWXDtnXfmLJ8=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: icons/WTP_icon_x32_v2.png
+SHA1-Digest: lQ7ElDU3kM6PTQQIv9EirtJFLGE=
+
+Name: about.properties
+SHA1-Digest: hSzGPW/XErbJcImnCc6MNSfawd0=
+
+Name: about.mappings
+SHA1-Digest: OORkEhPgNO6RdQi/tF1ZJry04xQ=
+
+Name: about.html
+SHA1-Digest: mUOvxSYxCUot6WW9T8TxmOQUrws=
+
+Name: plugin.properties
+SHA1-Digest: fHwJnfSWD8H4xpx7AwuYNrK3+ds=
+

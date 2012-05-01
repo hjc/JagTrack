@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+     Copyright (c) 2005, 2011 IBM Corporation and others.
+     All rights reserved. This program and the accompanying materials
+     are made available under the terms of the Eclipse Public License v1.0
+     which accompanies this distribution, and is available at
+     http://www.eclipse.org/legal/epl-v10.html
+    
+     Contributors:
+         IBM Corporation - initial API and implementation
+ -->
+<feature
+      id="org.eclipse.rse.telnet"
+      label="%featureName"
+      version="2.2.200.v201106011538-775F8NAkF7BB7B9NEIPP"
+      provider-name="%providerName"
+      plugin="org.eclipse.rse.services.telnet">
+
+   <description>
+      %description
+   </description>
+
+   <copyright url="http://www.eclipse.org/legal/epl-v10.html">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%tmUpdateSiteName" url="http://download.eclipse.org/tm/updates/3.3"/>
+      <discovery label="%tmUpdateSiteName" url="http://download.eclipse.org/tm/updates/3.3"/>
+   </url>
+
+   <requires>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.rse.core" version="3.0.0" match="compatible"/>
+      <import plugin="org.eclipse.rse.services" version="3.1.0" match="compatible"/>
+      <import plugin="org.eclipse.rse.shells.ui" version="3.0.0" match="compatible"/>
+      <import plugin="org.eclipse.rse.subsystems.files.core" version="3.0.0" match="compatible"/>
+      <import plugin="org.eclipse.rse.subsystems.shells.core" version="3.0.0" match="compatible"/>
+      <import plugin="org.eclipse.rse.ui" version="3.0.0" match="compatible"/>
+   </requires>
+
+   <plugin
+         id="org.apache.commons.net"
+         download-size="82"
+         install-size="228"
+         version="2.2.0.v201101241833"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.rse.connectorservice.telnet"
+         download-size="10"
+         install-size="21"
+         version="1.2.200.v201101042155"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.rse.services.telnet"
+         download-size="14"
+         install-size="23"
+         version="2.0.200.v201101042155"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.rse.subsystems.shells.telnet"
+         download-size="7"
+         install-size="14"
+         version="1.2.200.v201101042155"
+         unpack="false"/>
+
+</feature>

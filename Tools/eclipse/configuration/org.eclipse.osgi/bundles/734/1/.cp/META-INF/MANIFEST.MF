@@ -1,0 +1,221 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.wst.xsl.jaxp.launching;singleton:=tru
+ e
+Eclipse-SourceReferences: scm:cvs:pserver:dev.eclipse.org:/cvsroot/web
+ tools:sourceediting/plugins/org.eclipse.wst.xsl.jaxp.launching;tag=v2
+ 01103081922
+Bundle-Activator: org.eclipse.wst.xsl.jaxp.launching.internal.JAXPLaun
+ chingPlugin
+Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.4.0,4.0.0)
+ ",org.eclipse.core.variables;bundle-version="[3.2.100,4.0.0)",org.ecl
+ ipse.debug.core;bundle-version="[3.4.0,4.0.0)",org.eclipse.jdt.launch
+ ing;bundle-version="[3.4.0,4.0.0)",org.eclipse.wst.xsl.launching;bund
+ le-version="[1.0.0,2.0.0)",org.eclipse.wst.xsl.jaxp.debug;bundle-vers
+ ion="[1.0.0,2.0.0)",org.eclipse.jface;bundle-version="[3.4.0,4.0.0)",
+ org.eclipse.ui;bundle-version="[3.4.0,4.0.0)",org.eclipse.osgi.util;b
+ undle-version="[3.2.0,4.0.0)"
+Export-Package: org.eclipse.wst.xsl.jaxp.launching,org.eclipse.wst.xsl
+ .jaxp.launching.internal;x-internal:=true,org.eclipse.wst.xsl.jaxp.la
+ unching.internal.registry;x-internal:=true,org.eclipse.wst.xsl.jaxp.l
+ aunching.model
+Bundle-Version: 1.0.200.v201103081922
+Bundle-Vendor: %Bundle-Vendor.0
+Bundle-ActivationPolicy: lazy
+Bundle-Name: %Bundle-Name.0
+Bundle-ManifestVersion: 2
+
+Name: org/eclipse/wst/xsl/jaxp/launching/internal/PluginProcessorJar.c
+ lass
+SHA1-Digest: s0XRSUKPJ3URoBRJBAlExqcBt+k=
+
+Name: org/eclipse/wst/xsl/jaxp/launching/model/JAXPDebugTarget.class
+SHA1-Digest: 5e29c+Z1jzsENZk+EqpXrZ3CFUU=
+
+Name: org/eclipse/wst/xsl/jaxp/launching/IProcessorInvoker.class
+SHA1-Digest: whGeLaJV9OCVy/7XqhKhFCTzVh4=
+
+Name: schema/debugger.exsd
+SHA1-Digest: NRmWYsMpk1az9y/gglWs3q43ItU=
+
+Name: org/eclipse/wst/xsl/jaxp/launching/internal/registry/ProcessorRe
+ gistryReader.class
+SHA1-Digest: N/ul2ePp8Dqi9kG3mAZRytvDrZ8=
+
+Name: org/eclipse/wst/xsl/jaxp/launching/internal/LaunchHelper.class
+SHA1-Digest: P/0O7nKdTkjNMFhdKWgOh50cQwA=
+
+Name: JREDefaultAttributes.properties
+SHA1-Digest: eJUumzaSZmDaiebDSeDm2tIWYh8=
+
+Name: org/eclipse/wst/xsl/jaxp/launching/internal/registry/InvokerRegi
+ stry.class
+SHA1-Digest: u/JtMETLwBRFSB2Cy1ZhHwl04JE=
+
+Name: org/eclipse/wst/xsl/jaxp/launching/internal/ProcessorPreferences
+ .class
+SHA1-Digest: DtfA4w3LtoJlTgH/9Nj/rQkBhWI=
+
+Name: schema/invoke.exsd
+SHA1-Digest: cTgV3AgYmxeoPSBjESDptDTVspI=
+
+Name: org/eclipse/wst/xsl/jaxp/launching/internal/registry/AbstractReg
+ istryReader$1.class
+SHA1-Digest: j/qLn2CNzjy65+IxFFs4JgMp+YE=
+
+Name: org/eclipse/wst/xsl/jaxp/launching/internal/PreferenceInitialize
+ r.class
+SHA1-Digest: RKRtszcfpqLGBCw855fC6vmOZJE=
+
+Name: org/eclipse/wst/xsl/jaxp/launching/JAXPLaunchConfigurationConsta
+ nts.class
+SHA1-Digest: 3eIMsOl50Mu1yPg5Bh/tLHvpBak=
+
+Name: org/eclipse/wst/xsl/jaxp/launching/internal/registry/DebuggerReg
+ istry.class
+SHA1-Digest: o2FUcvhLmodvJ7gDY6ZDT0wI9ks=
+
+Name: org/eclipse/wst/xsl/jaxp/launching/internal/registry/ProcessorRe
+ gistry.class
+SHA1-Digest: 9Pzog2LSR2QBxxcTSNCTDwwL0cQ=
+
+Name: org/eclipse/wst/xsl/jaxp/launching/internal/JAXPLaunchingPlugin.
+ class
+SHA1-Digest: MSsqvSkA3OVOw61dja2EnrV90cs=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: org/eclipse/wst/xsl/jaxp/launching/IProcessorType.class
+SHA1-Digest: VtfBZzYMC7Pw8UkNYa0GOJu88GY=
+
+Name: org/eclipse/wst/xsl/jaxp/launching/internal/FeaturePreferences.c
+ lass
+SHA1-Digest: /XHgrpO0JLO+afge3VacC1BSydI=
+
+Name: org/eclipse/wst/xsl/jaxp/launching/LaunchProperties.class
+SHA1-Digest: +lVBZQhlkW557abgVwzEiiAWyAA=
+
+Name: JREDefaultOutputProperties.properties
+SHA1-Digest: a7vuVQ8Mzr75JOIfePrg3Oy2mlM=
+
+Name: org/eclipse/wst/xsl/jaxp/launching/ITransformerFactory.class
+SHA1-Digest: BII9M/JH04aSE7N5zufrXzzYjKI=
+
+Name: org/eclipse/wst/xsl/jaxp/launching/IOutputProperty.class
+SHA1-Digest: YSBPazRt7Rze8TMe4HMV/hEIrHs=
+
+Name: schema/processorType.exsd
+SHA1-Digest: vJ3Lr9Ej302W4yymIBttNRsvC1A=
+
+Name: org/eclipse/wst/xsl/jaxp/launching/internal/JAXPJavaLaunchConfig
+ urationDelegate$2.class
+SHA1-Digest: YzoXNwanIVyePqb4/e2Kavf+/7c=
+
+Name: org/eclipse/wst/xsl/jaxp/launching/internal/ProcessorType.class
+SHA1-Digest: EjdYoD7ZMgwhme5DlqapGk+4EQo=
+
+Name: org/eclipse/wst/xsl/jaxp/launching/internal/Utils.class
+SHA1-Digest: jyuJckeI7WRuzIcZ8KyivM0zcFY=
+
+Name: org/eclipse/wst/xsl/jaxp/launching/internal/registry/DebuggerReg
+ istryReader.class
+SHA1-Digest: VELFrIrCezSlyUpTMccDiX4hN1Y=
+
+Name: org/eclipse/wst/xsl/jaxp/launching/internal/registry/AbstractReg
+ istryReader.class
+SHA1-Digest: 4WRpfmGfkKHMwgPOo/SZNYzIuW8=
+
+Name: org/eclipse/wst/xsl/jaxp/launching/ProcessorInstall.class
+SHA1-Digest: shLfY+QUAuH/CopgnNyR489TxA0=
+
+Name: org/eclipse/wst/xsl/jaxp/launching/LaunchAttributes.class
+SHA1-Digest: ER66+LWjFakbvap4fI9sHIuRKb0=
+
+Name: plugin.properties
+SHA1-Digest: Jc6Yoc3IyFkrlZ+Q3M5mqtKWLK4=
+
+Name: schema/processor.exsd
+SHA1-Digest: NAF2cZMji358NtP5z/C2XffR5xg=
+
+Name: org/eclipse/wst/xsl/jaxp/launching/internal/Messages.class
+SHA1-Digest: 7ZUogtAffuvImSqatPaBjxXlFVE=
+
+Name: org/eclipse/wst/xsl/jaxp/launching/IAttribute.class
+SHA1-Digest: ynUDt2REKXhTfWd+ktmZNZsvltU=
+
+Name: org/eclipse/wst/xsl/jaxp/launching/internal/ProcessorInvokerDesc
+ riptor.class
+SHA1-Digest: n5yZ5VET3Z9ITt48YJ4GhFFemqg=
+
+Name: plugin.xml
+SHA1-Digest: +sflYq/ilO1VvnRaXShXCZ8qBiU=
+
+Name: org/eclipse/wst/xsl/jaxp/launching/IDebugger.class
+SHA1-Digest: ByivLS7XnqiM/d4b/IEkE32w5Ao=
+
+Name: org/eclipse/wst/xsl/jaxp/launching/internal/registry/ProcessorTy
+ peRegistryReader.class
+SHA1-Digest: Y3P+dimhdbLJ1Xr3nF0K+rZcV4w=
+
+Name: org/eclipse/wst/xsl/jaxp/launching/model/JAXPDebugTarget$EventDi
+ spatchJob.class
+SHA1-Digest: 2DTEiyH6eFM6t3RAzzMbLCcyj04=
+
+Name: org/eclipse/wst/xsl/jaxp/launching/IProcessorJar.class
+SHA1-Digest: FF0/j5OcDw7GCsVbafIo/o1W9QE=
+
+Name: org/eclipse/wst/xsl/jaxp/launching/IProcessorInstall.class
+SHA1-Digest: iwqj6N0AyI3nSz/yzs0FyaEGOwU=
+
+Name: org/eclipse/wst/xsl/jaxp/launching/internal/JAXPJavaLaunchConfig
+ urationDelegate.class
+SHA1-Digest: rUJA584isZngem7V8qAWzxt81Oc=
+
+Name: org/eclipse/wst/xsl/jaxp/launching/internal/registry/InvokerRegi
+ stryReader.class
+SHA1-Digest: PAIPRej4X+3M3TeRKRb+sO9keyU=
+
+Name: org/eclipse/wst/xsl/jaxp/launching/internal/Attribute.class
+SHA1-Digest: 0GDBIRK2DdhKsub6FwKaggqmfIA=
+
+Name: about.html
+SHA1-Digest: sgCJnk4QnR3NOCAPSHbXorGLiR8=
+
+Name: org/eclipse/wst/xsl/jaxp/launching/internal/ProcessorJar.class
+SHA1-Digest: +HWHtWPmuTKLARcEdIUrURIAOqA=
+
+Name: org/eclipse/wst/xsl/jaxp/launching/internal/OutputPropertyPrefer
+ ences.class
+SHA1-Digest: Rs7apDfmgmx74tNfZ6DOQ45mPVA=
+
+Name: org/eclipse/wst/xsl/jaxp/launching/internal/DebuggerDescriptor.c
+ lass
+SHA1-Digest: +V+/8ZSguKKvKHGJ631Osltcyy8=
+
+Name: org/eclipse/wst/xsl/jaxp/launching/internal/JAXPJavaLaunchConfig
+ urationDelegate$1.class
+SHA1-Digest: XSPIWcDNfoQOgQ+KMWd8suQydg4=
+
+Name: org/eclipse/wst/xsl/jaxp/launching/internal/TransformerFactory.c
+ lass
+SHA1-Digest: ft0BOkG48CuE5Q/kvfXuw58YjiM=
+
+Name: org/eclipse/wst/xsl/jaxp/launching/internal/JAXPJavaLaunchConfig
+ urationDelegate$3.class
+SHA1-Digest: s78n1xqxKmqglorPle9w7zl++qc=
+
+Name: org/eclipse/wst/xsl/jaxp/launching/internal/OutputProperty.class
+SHA1-Digest: hCBjDkwkv0CbRytnQQCOY39bnbw=
+
+Name: org/eclipse/wst/xsl/jaxp/launching/internal/registry/ProcessorTy
+ peRegistry.class
+SHA1-Digest: MnojhZQ2FMwugljquP2M00KGvH4=
+
+Name: org/eclipse/wst/xsl/jaxp/launching/JAXPRuntime.class
+SHA1-Digest: h1b6Y8wE5H6TorrjLpgtGocCjvc=
+
+Name: org/eclipse/wst/xsl/jaxp/launching/internal/messages.properties
+SHA1-Digest: J9rH6r+KazINoXWlyjQSawZc7dQ=
+

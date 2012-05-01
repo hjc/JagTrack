@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.jst.ws.jaxws.feature"
+      label="%featureName"
+      version="1.1.0.v201105171845-7E78BsF8NcJSWKvN1Rjcv"
+      provider-name="%featureProvider"
+      plugin="org.eclipse.jst.ws.jaxws.core"
+      image="eclipse_update_120.jpg"
+      
+      >
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.jst.ws.jaxws.core"
+         download-size="0"
+         install-size="0"
+         version="1.0.100.v201104031139"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.ws.jaxws.ui"
+         download-size="0"
+         install-size="0"
+         version="1.0.100.v201104032053"
+         unpack="false"/>
+
+   <plugin
+         id="javax.xml.ws"
+         download-size="0"
+         install-size="0"
+         version="2.1.0.v200902101523"
+         unpack="false"/>
+
+   <plugin
+         id="javax.jws"
+         download-size="0"
+         install-size="0"
+         version="2.0.0.v201005080400"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.ws.annotations.core"
+         download-size="0"
+         install-size="0"
+         version="1.1.0.v201104031139"
+         unpack="false"/>
+
+   <plugin
+         id="javax.xml.bind"
+         download-size="0"
+         install-size="0"
+         version="2.1.9.v201005080401"
+         unpack="false"/>
+
+   <plugin
+         id="javax.xml.stream"
+         download-size="0"
+         install-size="0"
+         version="1.0.1.v201004272200"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.ws.jaxb.core"
+         download-size="0"
+         install-size="0"
+         version="1.0.100.v201104031139"
+         unpack="false"/>
+
+   <plugin
+         id="javax.wsdl"
+         download-size="0"
+         install-size="0"
+         version="1.6.2.v201012040545"
+         unpack="false"/>
+
+   <plugin
+         id="org.jdom"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.v201005080400"
+         unpack="false"/>
+
+</feature>
