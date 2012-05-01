@@ -3,7 +3,6 @@ var NAVTREE =
   [ "JagTrack Server Code", "index.html", [
     [ "File List", "files.html", [
       [ "get_avg_time.php", "get__avg__time_8php.html", null ],
-      [ "get_bus.php", "get__bus_8php.html", null ],
       [ "get_pass.php", "get__pass_8php.html", null ],
       [ "index.php", "index_8php.html", null ]
     ] ],

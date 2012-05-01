@@ -20,17 +20,19 @@
 	//get bus param
 	$bus_id = $_GET['b'];
 	
+	//see if bus number is valid
 	if (! is_numeric($bus_id)) {
 		echo "<html>
 			    <body>error!! 
 				  <a href=\"http://jagtrack-amoore913.dotcloud.com/form.html\">
 					Go Back
 				  </a>
-				</body>http://www.reddit.com/r/radiohead/comments/smqpr/an_acoustic_lotus_flower/
+				</body>
 			</html>";
 		exit;
 	}
 	
+	//pretty up output
 	echo <<<EOD
 	 <html>
 		 <head>
@@ -68,8 +70,9 @@ EOD;
 		print('error!!!');
 	}		
 	
+	//print back button
 	print <<<EOTA
-	<form action="http://jagtrack-amoore913.dotcloud.com/form.html">
+	<form action="http://jagtrack-amoore913.dotcloud.com/pass_form.html">
 		<br>
 		<input type="submit" value="Back">
 	</form>

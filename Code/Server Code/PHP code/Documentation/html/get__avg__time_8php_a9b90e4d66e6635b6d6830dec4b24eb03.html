@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<title>JagTrack Server Code: $bus_id</title>
+<title>JagTrack Server Code: $q_route</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/search.js"></script>
@@ -65,7 +65,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-  initNavTree('get__pass_8php.html','');
+  initNavTree('get__avg__time_8php.html','');
 </script>
 <div id="doc-content">
 <div class="contents">
@@ -74,23 +74,33 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
    <td valign="top">
       <div class="navtab">
         <table>
-          <tr><td class="navtab"><a class="qindexHL" href="get__pass_8php_a4cad772a42203b0ff8351e1a060df14d.html#a4cad772a42203b0ff8351e1a060df14d">$bus_id</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="get__avg__time_8php_ae7ef8ab0940cf7a7e9a8a2bb0f3b47b0.html#ae7ef8ab0940cf7a7e9a8a2bb0f3b47b0">$buses</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="get__avg__time_8php_a2698dc52f06950fcdbaca1e94f88c1ff.html#a2698dc52f06950fcdbaca1e94f88c1ff">$done</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="get__avg__time_8php_a22377fbdee6b0aad7e6e4b043f2b6603.html#a22377fbdee6b0aad7e6e4b043f2b6603">$envjson</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="get__avg__time_8php_a580989e8e3521433691a0351287f6315.html#a580989e8e3521433691a0351287f6315">$mysqli</a></td></tr>
+          <tr><td class="navtab"><a class="qindexHL" href="get__avg__time_8php_a9b90e4d66e6635b6d6830dec4b24eb03.html#a9b90e4d66e6635b6d6830dec4b24eb03">$q_route</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="get__avg__time_8php_a49a8a4009b02e49717caa88b128affc5.html#a49a8a4009b02e49717caa88b128affc5">$res</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="get__avg__time_8php_a7bb4e2f457e8e86f1225d224fe1ec68b.html#a7bb4e2f457e8e86f1225d224fe1ec68b">$route_color</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="get__avg__time_8php_addc5e9981ac50c577e366f562a9382fe.html#addc5e9981ac50c577e366f562a9382fe">$stop_id</a></td></tr>
+          <tr><td class="navtab"><a class="qindex" href="get__avg__time_8php_abbac276c7f4e5bdd57c7e02000863656.html#abbac276c7f4e5bdd57c7e02000863656">get_avg_time</a></td></tr>
         </table>
       </div>
    </td>
    <td valign="top" class="mempage">
-<a class="anchor" id="a4cad772a42203b0ff8351e1a060df14d"></a><!-- doxytag: member="get_pass.php::$bus_id" ref="a4cad772a42203b0ff8351e1a060df14d" args="" -->
+<a class="anchor" id="a9b90e4d66e6635b6d6830dec4b24eb03"></a><!-- doxytag: member="get_avg_time.php::$q_route" ref="a9b90e4d66e6635b6d6830dec4b24eb03" args="" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">$bus_id = $_GET['b']</td>
+          <td class="memname">$q_route</td>
         </tr>
       </table>
 </div>
 <div class="memdoc">
-
-<p>Definition at line <a class="el" href="get__pass_8php_source.html#l00021">21</a> of file <a class="el" href="get__pass_8php_source.html">get_pass.php</a>.</p>
+<b>Initial value:</b><div class="fragment"><pre class="fragment"> sprintf(<span class="stringliteral">&quot;SELECT route_id FROM jt_route WHERE color = &#39;%s&#39;&quot;</span>,
+     mysql_escape_string(strtolower(<a class="code" href="get__avg__time_8php_a7bb4e2f457e8e86f1225d224fe1ec68b.html#a7bb4e2f457e8e86f1225d224fe1ec68b">$route_color</a>)))
+</pre></div>
+<p>Definition at line <a class="el" href="get__avg__time_8php_source.html#l00079">79</a> of file <a class="el" href="get__avg__time_8php_source.html">get_avg_time.php</a>.</p>
 
 </div>
 </div>
@@ -101,7 +111,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
   <div id="nav-path" class="navpath">
     <ul>
-      <li class="navelem"><a class="el" href="get__pass_8php.html">get_pass.php</a>      </li>
+      <li class="navelem"><a class="el" href="get__avg__time_8php.html">get_avg_time.php</a>      </li>
       <li class="footer">Generated on Mon Apr 30 2012 18:28:52 for JagTrack Server Code by&#160;
 <a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.4 </li>
